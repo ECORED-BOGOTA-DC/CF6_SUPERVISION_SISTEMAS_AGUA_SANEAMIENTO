@@ -387,6 +387,85 @@
         figure
           img(src='@/assets/curso/temas/tema2/img31.png', alt='alt')
 
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img32.png', alt='alt')
+      .col-lg-8
+        ul.lista-ul--color.lista-ul--separador.fa-ul2
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Podrá utilizarse una ventosa única para atender la entrada y la salida de aire, siempre y cuando dicho dispositivo sea capaz de atender ambas funciones. 
+
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Preferiblemente las válvulas de ventosa deben ser bridadas según las especificaciones de la norma AWWA y con cuerpo fundido en hierro dúctil. Para los niveles de complejidad del sistema bajo y medio se pueden utilizar válvulas de ventosa roscada; para los niveles de complejidad del sistema medio alto y alto, el uso de las válvulas de ventosa roscada deberá contar con la aprobación previa de la persona prestadora del servicio de acueducto. Tipo de válvula. 
+
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Cuando en la conducción se encuentre una válvula de línea, debe existir una ventosa aguas arriba o aguas abajo, dependiendo de la pendiente para la aireación durante el llenado y descarga de ésta. 
+
+
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Las ventosas tendrán los siguientes diámetros mínimos: para tuberías con diámetro interno real menor o igual que 100 mm, el diámetro mínimo será de 50 mm. Para tuberías con diámetro interno real mayor que 100 mm, el diámetro mínimo de las ventosas será de 75 mm. En caso de que el diseño hidráulico incluya ventosas con diámetros inferiores a los antes establecidos, éste deberá ser aprobado por la persona prestadora del servicio. 
+
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | El diseño del diámetro y ubicación de las válvulas de ventosa debe realizarse de forma integrada con el de las válvulas de purga. 
+
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Toda válvula de ventosa debe poder aislarse de la tubería principal por medio de una válvula de corte. 
+      
+
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-8
+        ul.lista-ul--color.lista-ul--separador.fa-ul2
+          li
+            i.fas.fa-check-circle.color-vineta1
+            | Cada ventosa debe estar protegida por una cámara de inspección accesible, con su respectivo drenaje de aguas y los respiraderos necesarios para garantizar el flujo de aire y estar completamente asegurada. 
+
+          li
+            i.fas.fa-check-circle.color-vineta1
+            | Los dispositivos de entrada de aire deben localizarse de tal modo que no se introduzca agua extraña al sistema. Los dispositivos previstos deben instalarse de tal manera que sus aperturas se sitúen por lo menos un metro (1.0 m) por encima del nivel máximo de agua que pudiera acumularse en el sitio de la ventosa. 
+
+          li
+            i.fas.fa-check-circle.color-vineta1
+            |  Deben disponerse puntos intermedios para la entrada de aire en la tubería cuando la línea piezométrica correspondiente a la carga de un tramo del conducto durante operaciones de mantenimiento y/o reparación, se sitúe por debajo de éste, de forma tal que cause problemas de discontinuidad en la columna líquida o problemas de posible colapso de la tubería por aplastamiento. 
+
+          li
+            i.fas.fa-check-circle.color-vineta1
+            | Como dispositivos automáticos para la entrada o salida de aire de las líneas de conducción pueden utilizarse los siguientes: ventosas de doble efecto para la descarga del aire acumulado durante el llenado y durante la operación normal de la conducción y para la entrada en las operaciones de descarga de agua. Tubos verticales o chimeneas cuando su extremidad superior pueda situarse por encima de la línea piezométrica máxima para la entrada de aire. 
+
+          li
+            i.fas.fa-check-circle.color-vineta1
+            | En el caso que exista una válvula intermedia en la conducción, ésta debe estar dotada de un paso lateral (by pass) de tal manera que permita el flujo de aire hacia la ventosa. Este paso lateral debe estar dotado de su propia válvula de corte y se debe utilizar cuando:
+
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema2/img34.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--gris
+                .p-2
+                  p La válvula intermedia se localiza en tramos descendentes de la tubería y su apertura no puede realizarse sin causar perjuicios a la estructura.
+
+          .col-lg-6
+            .tarjeta-avatar-b.mb-5
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/tema2/img34.svg' alt='AvatarTop')
+              .tarjeta.tarjeta--gris
+                .p-2
+                  p La válvula intermedia sea del tipo compuerta y la presión en el punto en que estuviese instalada cause un empuje superior a 20 KN. 
+
+
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img33.png', alt='alt')
+    
+
 
 
     
