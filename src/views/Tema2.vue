@@ -28,11 +28,12 @@
       figure
         img(src='@/assets/curso/temas/tema2/img2.svg', alt='alt')
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mt-3
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img3.svg', alt='alt')
-      .col-lg-7
+
+      .col-lg-7.mt-3
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
@@ -64,7 +65,7 @@
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Calidad del producto</span>
 
         .cajon.cajon-tema2.p-4.mt-3
-          p Mantener la composición del efluente de la planta dentro de los estándares de calidad especificados. 
+          p.mb-0 Mantener la composición del efluente de la planta dentro de los estándares de calidad especificados. 
 
         .list.mb-3(data-aos="fade-down").mt-3
           .list__item
@@ -92,7 +93,7 @@
       p Son dispositivos que permiten realizar la medición de variables físicas, algunas de estas variables son:
 
     .row.justify-content-center.align-items-center
-      .col-lg-4
+      .col-lg-4.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img8.png', alt='alt')
 
@@ -151,21 +152,30 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-7
-        p Para la medición del caudal debe hacerse uso de medidores según sea el tipo de caudal volumétrico o másico deseado. Debe adquirirse el conocimiento básico de los tipos de fluxómetros volumétricos disponibles para realizar la mejor elección, entre los cuales se encuentran fluxómetros magnéticos, ultrasónicos, de turbina, medidores venturi y flujo de tubo, canaleta Parshall y vertederos, los cuales determinan el caudal directamente (desplazamiento) o indirectamente por deducción (presión diferencial, área variable, velocidad, fuerza, tensión inducida, torbellino). 
+        p Para la medición del caudal debe hacerse uso de medidores según sea el tipo de caudal volumétrico o másico deseado. Debe adquirirse el conocimiento básico de los tipos de fluxómetros volumétricos disponibles para realizar la mejor elección, entre los cuales se encuentran fluxómetros magnéticos, ultrasónicos, de turbina, medidores #[i venturi] y flujo de tubo, canaleta #[i Parshall] y vertederos, los cuales determinan el caudal directamente (desplazamiento) o indirectamente por deducción (presión diferencial, área variable, velocidad, fuerza, tensión inducida, torbellino). 
 
         .cajon.cajon-tema2.p-4.mt-3
-          p Las mediciones de caudal másico deben efectuarse a partir de una medida volumétrica compensándola para las variaciones de densidad del fluido o determinando directamente la caudal masa aprovechando características medibles de la masa del fluido.
+          p.mb-0 Las mediciones de caudal másico deben efectuarse a partir de una medida volumétrica compensándola para las variaciones de densidad del fluido o determinando directamente la caudal masa aprovechando características medibles de la masa del fluido.
 
-      .col-lg-5
+      .col-lg-5.mt-3
         figure
           img(src='@/assets/curso/temas/tema2/img14.png', alt='alt')
+
+    .row.mt-5
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Medidores de nivel</span>
 
     .row.justify-content-center.align-items-center
       .col-lg-5
         figure
           img(src='@/assets/curso/temas/tema2/img15.png', alt='alt')
 
-      .col-lg-7
+      .col-lg-7.mt-3
         p La medición del nivel debe ser muy cuidadosa para asegurar el funcionamiento correcto de cada proceso y obtener el balance adecuado de materias primas o del efluente de la planta.
 
         p Debe tenerse el respectivo conocimiento de los tipos de medidores de nivel, entre los cuales  se encuentran los que miden directamente la altura del líquido sobre una línea de referencia, medidores de presión hidrostática, dispositivos que miden el desplazamiento producido en un flotador por el propio líquido contenido en el tanque del proceso y los medidores que aprovechan las características eléctricas del líquido.
@@ -174,9 +184,9 @@
       .col-lg-8
 
         .cajon.cajon-tema2.p-4.mt-3
-          p En los niveles de complejidad del sistema bajo y medio es conveniente utilizar medidores como la sonda, cinta y plomada, nivel de cristal e instrumentos de flotador. En los niveles de complejidad del sistema medio alto y alto, es conveniente utilizar medidores manómetricos, de membrana, de presión diferencial de diafragma, de desplazamiento a barra de torsión, conductiva, capacitiva, ultrasónica y de radiación.
+          p.mb-0 En los niveles de complejidad del sistema bajo y medio es conveniente utilizar medidores como la sonda, cinta y plomada, nivel de cristal e instrumentos de flotador. En los niveles de complejidad del sistema medio alto y alto, es conveniente utilizar medidores manómetricos, de membrana, de presión diferencial de diafragma, de desplazamiento a barra de torsión, conductiva, capacitiva, ultrasónica y de radiación.
 
-      .col-lg-4
+      .col-lg-4.mt-3
         figure
           img(src='@/assets/curso/temas/tema2/img16.svg', alt='alt')
 
@@ -195,7 +205,7 @@
           img(src='@/assets/curso/temas/tema2/img17.png', alt='alt')
 
       .col-lg-6
-        p Los instrumentos de presión deben estar sujetos a los siguientes grupos:
+        p.mt-3 Los instrumentos de presión deben estar sujetos a los siguientes grupos:
 
         .row 
           .col-lg-6
@@ -218,7 +228,7 @@
 
 
         .cajon.cajon-tema2.p-4.mt-3
-          p Deben aplicarse medidores de presión a líneas o procesos que se encuentren encerrados tales como sistemas de distribución de aire comprimido, líneas de descarga de bombas y tanques, para esta finalidad se encuentran manómetros, tubos manométricos Bourdon, elemento en espiral, helicoidal, fuelles, medidores de presión diferencial de diafragma, medidores capacitivos y ultrasónicos.
+          p.mb-0 Deben aplicarse medidores de presión a líneas o procesos que se encuentren encerrados tales como sistemas de distribución de aire comprimido, líneas de descarga de bombas y tanques, para esta finalidad se encuentran manómetros, tubos manométricos Bourdon, elemento en espiral, helicoidal, fuelles, medidores de presión diferencial de diafragma, medidores capacitivos y ultrasónicos.
 
     .row.justify-content-center.mb-5.mt-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -255,7 +265,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img21.png', alt='alt')
 
-      .col-lg-8
+      .col-lg-8.mt-3
         TabsA.color-acento-botones.mb-5        
           .tarjeta.clr-paleYellow.p-4(titulo="Actuadores eléctricos")
             h4 Actuadores eléctricos
@@ -303,7 +313,7 @@
                     | Válvulas tapón.
 
 
-      .col-lg-2
+      .col-8.col-lg-2
         figure
           img(src='@/assets/curso/temas/tema2/img22.png', alt='alt')
 
@@ -360,14 +370,14 @@
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Materiales para válvulas</span>
 
     .row.justify-content-center.align-items-center
-      .col-lg-2
+      .col-8.col-lg-2.mt-3
         figure
           img(src='@/assets/curso/temas/tema2/img27.png', alt='alt')
-      .col-lg-10
+      .col-lg-10.mt-3
         p El diseño debe asegurar que los materiales con los cuales se construyen las válvulas, tanto en su cuerpo como en su mecanismo de cierre, cumplan con todas las especificaciones técnicas reconocidas tanto a nivel nacional como internacional, en función de las características del agua, tales como el grado de agresividad y otros, así como de las presiones de servicio más los factores de seguridad requeridos. 
 
         .cajon.cajon-tema2.p-4.mt-3
-          p Estas especificaciones para los materiales deben seguir lo establecido en las Normas Técnicas Colombianas NTC, las normas ASTM, las normas ISO o las normas DIN correspondientes para cada tipo de válvula. Los revestimientos internos para las válvulas y sus mecanismos deben ajustarse a las Normas Técnicas Colombianas correspondientes o a la Norma AWWA C550. 
+          p.mb-0 Estas especificaciones para los materiales deben seguir lo establecido en las Normas Técnicas Colombianas NTC, las normas ASTM, las normas ISO o las normas DIN correspondientes para cada tipo de válvula. Los revestimientos internos para las válvulas y sus mecanismos deben ajustarse a las Normas Técnicas Colombianas correspondientes o a la Norma AWWA C550. 
 
     .row.mt-5
       .col-lg-7
@@ -396,7 +406,7 @@
           img(src='@/assets/curso/temas/tema2/img28.png', alt='alt')
 
       .col-lg-8
-        p El el proceso de potabilización de agua, se requiere de válvulas resistentes y que su tiempo de duración sea largo, es por esta razón que se debe conocer los tipos de válvulas, su funcionalidad, material y protocolos de uso entre otras características. 
+        p.mt-3 El el proceso de potabilización de agua, se requiere de válvulas resistentes y que su tiempo de duración sea largo, es por esta razón que se debe conocer los tipos de válvulas, su funcionalidad, material y protocolos de uso entre otras características. 
 
         p Entre las válvulas se encuentran, las que se describen a continuación: 
 
@@ -411,7 +421,7 @@
         .cajon.cajon-tema2.p-4.mt-3
           p.mb-0 En aquellos casos en que la tubería presenta grandes desniveles debido a la topografía del terreno, se debe verificar la condición del cierre de una válvula de corte y sus características. 
 
-      .col-lg-4
+      .col-lg-4.mt-3
         figure
           img(src='@/assets/curso/temas/tema2/img29.png', alt='alt')
 
@@ -420,7 +430,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img30.png', alt='alt')
 
-      .col-lg-8
+      .col-lg-8.mt-3
         p Las válvulas de cierre o corte deben cumplir con las correspondientes normas técnicas colombianas y si estas no existen con las Normas Técnicas: American Water Works Association [AWWA], American Society for Testing and Materials [ASTM], Deutsches Institut für Normung [DIN], International Organization for Standardization [ISO], American Petroleum Institute [API] o cualquier otra norma de reconocimiento internacional equivalente, previa aprobación del Ministerio de Ambiente Vivienda y Desarrollo Territorial, para el caso de los niveles de complejidad del sistema bajo y medio o de la persona prestadora del servicio para los niveles de complejidad del sistema medio alto y alto. 
 
         p Adicionalmente, el diseño debe evaluar la necesidad de instalar válvulas de corte intermedias a lo largo de la línea de conducción en sistemas de gravedad. El diámetro de la válvula debe seleccionarse igual al diámetro de las tuberías de conducción y debe verificarse para evitar problemas de cavitación en el caso de que se tengan flujos con altas velocidades. 
@@ -436,15 +446,15 @@
         .cajon.cajon-tema2.p-4.mt-3
           p.mb-0 Dichos dispositivos deben permitir también la entrada automática de aire durante las operaciones de descarga de la tubería o cuando el caudal de agua se disminuye por causa de una rotura, de maniobras o de paradas en el flujo de la tubería. El diseño debe tener en cuenta los siguientes aspectos:
 
-      .col-lg-4
+      .col-lg-4.mt-3
         figure
           img(src='@/assets/curso/temas/tema2/img31.png', alt='alt')
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-4
+      .col-8.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img32.png', alt='alt')
-      .col-lg-8
+      .col-lg-8.mt-3
         ul.lista-ul--color.lista-ul--separador.fa-ul2
           li.l-p
             i.fas.fa-check-circle.color-vineta1
@@ -492,7 +502,7 @@
             i.fas.fa-check-circle.color-vineta1
             | Como dispositivos automáticos para la entrada o salida de aire de las líneas de conducción pueden utilizarse los siguientes: ventosas de doble efecto para la descarga del aire acumulado durante el llenado y durante la operación normal de la conducción y para la entrada en las operaciones de descarga de agua. Tubos verticales o chimeneas cuando su extremidad superior pueda situarse por encima de la línea piezométrica máxima para la entrada de aire. 
 
-          li.l-p
+          li
             i.fas.fa-check-circle.color-vineta1
             | En el caso que exista una válvula intermedia en la conducción, ésta debe estar dotada de un paso lateral (by pass) de tal manera que permita el flujo de aire hacia la ventosa. Este paso lateral debe estar dotado de su propia válvula de corte y se debe utilizar cuando:
 
@@ -514,7 +524,7 @@
                   p La válvula intermedia sea del tipo compuerta y la presión en el punto en que estuviese instalada cause un empuje superior a 20 KN. 
 
 
-      .col-lg-4
+      .col-8.col-lg-4.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img33.png', alt='alt')
 
@@ -535,7 +545,7 @@
           p.mb-0 <b>Válvulas de purga o desagüe:</b> en los puntos bajos de la tubería de conducción o cada 350 m, deben colocarse válvulas de desagüe o de limpieza. En estos casos deben tenerse en cuenta los siguientes aspectos:
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-4
+      .col-lg-4.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img35.svg', alt='alt')
 
@@ -559,7 +569,7 @@
           li.l-p
             i.fas.fa-check-circle.color-vineta1
             | Si la velocidad de salida de la válvula de purga es mayor que 3 m/s, debe hacerse un estudio de cavitación. 
-          li.l-p
+          li
             i.fas.fa-check-circle.color-vineta1
             | El dimensionamiento de la descarga debe realizarse teniendo en cuenta los siguientes puntos: 
 
@@ -594,7 +604,7 @@
 
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4
+      .col-lg-4.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img37.svg', alt='alt')     
 
@@ -613,8 +623,10 @@
               span 6
             p.mb-0 <b>Válvulas de flujo o paso anular:</b> se utilizan para la regulación de caudales y pueden tener o no regulación de presión. Las válvulas con regulación de presión cuentan con dispositivos para reducir la presión a la entrada de los tanques de almacenamiento y/o compensación.
 
-        .cajon.color-gris.p-4
-          p.mb-0 Las válvulas sin regulación de presión no tienen ese tipo de dispositivos y son utilizadas en puntos intermedios de las conducciones o en entradas a tanques con presiones bajas, siempre y cuando el flujo sea unidireccional. Estas válvulas deben tener un obturador interior en forma de émbolo que se mueva axial y perpendicularmente al asiento, para dejar un paso anular al agua en cualquier posición.
+        .cajon.color-gris.p-4.mb-3
+          p.mb-0 Las válvulas sin regulación de presión no tienen ese tipo de dispositivos y son utilizadas en puntos intermedios de las conducciones o en entradas a tanques con presiones bajas, siempre y cuando el flujo #[b sea unidireccional.] Estas válvulas deben tener un obturador interior en forma de émbolo que se mueva axial y perpendicularmente al asiento, para dejar un paso anular al agua en cualquier posición.
+
+        p El diseño del sistema obturador debe ser tal que pueda desplazarse el émbolo sin problemas ante una posible incrustación de sólidos en el órgano disipador.
 
       .col-lg-4
         figure
@@ -666,7 +678,7 @@
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Tipos de bombas</span>
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-4
+      .col-lg-4.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img41.svg', alt='alt')
 
@@ -700,7 +712,7 @@
           li.l-p
             i.fas.fa-check-circle.color-vineta1
             | La compatibilidad con otros equipos de bombeo existentes en el municipio.
-          li.l-p
+          li
             i.fas.fa-check-circle.color-vineta1
             | El nivel del ruido generado por la operación de las bombas.
 
@@ -738,7 +750,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img44.svg', alt='alt')
 
@@ -823,7 +835,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-4.mb-3
+      .col-10.col-lg-4.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img45.svg', alt='alt')
 
@@ -857,11 +869,11 @@
           li.l-p
             i.fas.fa-check-circle.color-vineta1
             | Debe conocerse el tipo de equipo recomendado para su dosificación. 
-          li.l-p
+          li
             i.fas.fa-check-circle.color-vineta1
             | Se recomienda evaluar la naturaleza y propiedades del producto a utilizar en lo que tiene que ver con la corrosión, abrasión y en algunos casos los requerimientos de equipo por parte del fabricante.
 
-      .col-lg-4
+      .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img46.svg', alt='alt')
 
@@ -876,7 +888,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img47.svg', alt='alt')
 
@@ -898,7 +910,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img48.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El material de las bombas y de los diferentes componentes debe resistir los efectos de corrosión que el agua pueda causar en ellos. Se pueden utilizar materiales como: hierro fundido, acero inoxidable, acero al carbón, acero fundido y hierro dúctil. Para los accesorios de la bomba se puede usar latón y bronce. Todos los materiales utilizados deben estar certificados por normas técnicas nacionales o internacionales.
+            p.mb-0 Estos equipos permiten la obtención de medidas exactas que deben verterse de los compuestos químicos, acorde a la necesidad detectada en el proceso de potabilización, al igual que su sistema de dosificación debe ser controlada bien sea de manera continua o periódica.
 
 
     .row.mb-5
@@ -991,7 +1003,7 @@
                 img(src='@/assets/curso/temas/tema2/img51.svg', alt='alt')
 
         .py-3.py-md-4(titulo="Sistemas por gravedad")
-          .row
+          .row.justify-content-center.align-items-center
             .col-md-8.mb-4.mb-md-0
               p Pueden emplearse los de carga constante y los de carga regulable. En los de carga constante debe mantenerse una carga constante de agua sobre un orificio para obtener un caudal de dosificación constante. El caudal debe calibrarse a la salida mediante una válvula. Este sistema debe constar de:
 
@@ -1075,7 +1087,7 @@
 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img56.svg', alt='alt')
 
@@ -1083,11 +1095,11 @@
         p De igual manera el RAS en su título C, define los estudios de tratabilidad como una serie de ensayos de laboratorio o en planta piloto, realizados por lo menos a dos tipos de aguas crudas, uno representativo de aguas en condiciones de verano y otro de condiciones de invierno, bien sea en laboratorio, usando equipos para prueba de jarras con modificaciones para asegurar la calidad de los datos a obtener, o bien sea realizados en planta piloto. 
 
         .cajon.color-gris.p-4
-          p.mb-4 Con los estudios o ensayos de tratabilidad se obtienen los parámetros reales con los cuales se debe diseñar, optimizar, evaluar y operar una planta de tratamiento. Diferentes ensayos de tratabilidad de las aguas para su potabilización, entre otros está:
+          p.mb-0 Con los estudios o ensayos de tratabilidad se obtienen los parámetros reales con los cuales se debe diseñar, optimizar, evaluar y operar una planta de tratamiento. Diferentes ensayos de tratabilidad de las aguas para su potabilización, entre otros está:
 
 
     .row.mb-5
-      .col-lg-1
+      .col-6.col-lg-1
         figure
           img(src='@/assets/curso/temas/tema2/img57.svg', alt='alt').img57-tm2
 
@@ -1102,18 +1114,18 @@
       p Uno de los ensayos más comunes es el ensayo de jarras, que permite determinar variables dentro de los procesos de coagulación y floculación, el RAS 2000, título C, establece los ensayos que se pueden determinar de acuerdo con el proceso de tratamiento de agua son:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-10.col-lg-5.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img58.svg', alt='alt')
 
       .col-lg-7
         SlyderF(columnas="col-12")
           .tarjeta.tarjeta--gris.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center.mb-3
               .col-4.mb-4
                 img(src='@/assets/curso/temas/tema2/img59.svg' alt='AvatarTop')
             h4.text-center.mb-5 Para la caracterización de las aguas crudas a tratar:
-            .row
+            .row.justify-content-center.align-items-center
               .col-lg-6
                 ul.lista-ul--color.fa-ul2
                   li
@@ -1157,7 +1169,7 @@
                     | Dureza.
 
           .tarjeta.tarjeta--gris.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center.mb-3
               .col-4.mb-4
                 img(src='@/assets/curso/temas/tema2/img60.svg' alt='AvatarTop')
             h4.text-center.mb-5 Para coagulación y mezcla rápida:
@@ -1185,7 +1197,7 @@
                 | Concentración óptima del coagulante a utilizar.
 
           .tarjeta.tarjeta--gris.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center.mb-3
               .col-4.mb-4
                 img(src='@/assets/curso/temas/tema2/img61.svg' alt='AvatarTop')
             h4.text-center.mb-5 Para floculación:
@@ -1201,7 +1213,7 @@
                 | Secuencia decreciente del gradiente y tiempos de aplicación. 
 
           .tarjeta.tarjeta--gris.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center.mb-3
               .col-4.mb-4
                 img(src='@/assets/curso/temas/tema2/img62.svg' alt='AvatarTop')
             h4.text-center.mb-5 Para decantación:
@@ -1214,7 +1226,7 @@
                 | Cargas superficiales por aplicar y turbiedad. remanente con cada una de ellas. 
 
           .tarjeta.tarjeta--gris.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center.mb-3
               .col-4.mb-4
                 img(src='@/assets/curso/temas/tema2/img63.svg' alt='AvatarTop')
             h4.text-center.mb-5 Para filtración:
@@ -1230,7 +1242,7 @@
                 | Carrera de filtración.
 
           .tarjeta.tarjeta--gris.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center.mb-3
               .col-4.mb-4
                 img(src='@/assets/curso/temas/tema2/img64.svg' alt='AvatarTop')
             h4.text-center.mb-5 Para desinfección:
@@ -1246,7 +1258,7 @@
                 | Tiempo de retención. 
 
           .tarjeta.tarjeta--gris.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center.mb-3
               .col-4.mb-4
                 img(src='@/assets/curso/temas/tema2/img65.svg' alt='AvatarTop')
             h4.text-center.mb-5 Para estabilización:
@@ -1262,7 +1274,7 @@
                 | Dosis de alcalinizante o de cal secundaria para ajuste del pH.
 
           .tarjeta.tarjeta--gris.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center.mb-3
               .col-4.mb-4
                 img(src='@/assets/curso/temas/tema2/img66.svg' alt='AvatarTop')
             h4.text-center.mb-5 Para ablandamiento:
@@ -1275,7 +1287,7 @@
                 | Efectividad de zeolitas.
 
           .tarjeta.tarjeta--gris.p-4
-            .row.justify-content-center.mb-3
+            .row.justify-content-center.align-items-center.mb-3
               .col-4.mb-4
                 img(src='@/assets/curso/temas/tema2/img67.svg' alt='AvatarTop')
             h4.text-center.mb-5 Para filtración directa:

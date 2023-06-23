@@ -1141,31 +1141,33 @@
 
         p A continuación, se establecen los principales métodos que pueden emplearse para controlar la tasa de filtración, esto es:
 
+    .bg_img_01
+      .row.justify-content-center.mb-5
+        .col-lg-4.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-5
+              figure
+                img(src="@/assets/curso/temas/tema1/img56.svg", alt="alt").img90.m-auto
+            h3.text-center Pérdida de carga variable
+            p.text-center El afluente debe entrar al filtro por debajo del nivel de la canaleta de lavado. Debe contar con un vertedero de control, una válvula que evite el vaciado del filtro al comienzo de las carreras.
 
-    .row.mb-5
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/img56.svg' alt='AvatarTop')
-          .tarjeta.tarjeta-gris2
-            .p-3
-              h3.text-center Filtración de tasa constante
-              p.text-center Es el tipo de control tradicional de los filtros rápidos convencionales. Debe emplearse un controlador variable que mantenga una pérdida de carga total constante al abrirse gradualmente la válvula, a medida que el lecho se colmata. 
+        .col-lg-4.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-5
+              figure
+                img(src="@/assets/curso/temas/tema1/img57.svg", alt="alt").img90.m-auto
+            h3.text-center Filtración afluente y nivel variable 
+            p.text-center El caudal debe distribuirse por igual mediante un vertedero de entrada sobre cada filtro, el vertedero de control debe quedar en un nivel superior al nivel máximo, la unidad debe ser profunda para permitir una variación del nivel, debe introducirse un sistema de disipación de energía.
 
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/img57.svg' alt='AvatarTop')
-          .tarjeta.tarjeta-azul
-            .p-3
-              h3.text-center Filtración afluente y nivel variable 
-              p.text-center El caudal debe distribuirse por igual mediante un vertedero de entrada sobre cada filtro, el vertedero de control debe quedar en un nivel superior al nivel máximo, la unidad debe ser profunda para permitir una variación del nivel, debe introducirse un sistema de disipación de energía.
+        .col-lg-4.mb-4.mb-lg-0
+          .crd.crd--grayGrad(data-aos="flip-left")
+            .bottomCircle.mb-5
+              figure
+                img(src="@/assets/curso/temas/tema1/img58.svg", alt="alt").img90.m-auto
+            h3.text-center Filtración de tasa constante
+            p.text-center Es el tipo de control tradicional de los filtros rápidos convencionales. Debe emplearse un controlador variable que mantenga una pérdida de carga total constante al abrirse gradualmente la válvula, a medida que el lecho se colmata. 
 
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema1/img58.svg' alt='AvatarTop')
-          .tarjeta.tarjeta-gris2
-            .p-3
-              h3.text-center Pérdida de carga variable
-              p.text-center El afluente debe entrar al filtro por debajo del nivel de la canaleta de lavado. Debe contar con un vertedero de control, una válvula que evite el vaciado del filtro al comienzo de las carreras.
+
 
     .row.bg-titulo4.align-items-center.p-1.mb-5
       h3.text-white.my-3 Desinfección
@@ -1188,15 +1190,15 @@
     .row.justify-content-center.align-items-center.mb-5
       p.mb-4 #[b El RAS en su título C], también determina que el agua tratada a la salida de la planta no debe presentar propiedades corrosivas con respecto a las tuberías del sistema de distribución y del interior de las viviendas; el pH del agua debe ser próximo al de saturación. Si es necesario hacer uso de inhibidores que a la vez pueden ayudar a proteger la red de distribución de agua de la formación de biopelículas en su interior, éstos pueden utilizarse si son económicamente factibles.
 
-      .cajon.color-gris.p-4.mb-4
-        p.mb-0 Para proteger las tuberías de los agentes corrosivos presentes puede ajustarse la composición del agua, pH, concentración en iones de calcio y la alcalinidad al valor del equilibrio de saturación del carbonato de calcio para una temperatura del agua dada. El agua ideal debe tener una dureza total entre 40 mg/L y 60 mg/L de equivalente de carbonato de calcio (CaCO3), a un pH y alcalinidad que alcance las condiciones de saturación y una dureza de magnesio de no más que 36 mg/L para minimizar la formación de hidróxido de magnesio a temperaturas elevadas.
+      p Para proteger las tuberías de los agentes corrosivos presentes puede ajustarse la composición del agua, pH, concentración en iones de calcio y la alcalinidad al valor del equilibrio de saturación del carbonato de calcio para una temperatura del agua dada. El agua ideal debe tener una dureza total entre 40 mg/L y 60 mg/L de equivalente de carbonato de calcio (CaCO3), a un pH y alcalinidad que alcance las condiciones de saturación y una dureza de magnesio de no más que 36 mg/L para minimizar la formación de hidróxido de magnesio a temperaturas elevadas.
 
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img60.svg', alt='alt')
 
       .col-lg-8
-        p Por medio del ablandamiento del agua debe reducirse el contenido de minerales disueltos, particularmente calcio y magnesio que son los mayores impulsores de la dureza del agua, otros iones que pueden producir dureza son el hierro, manganeso, estroncio, bario, zinc y aluminio, de cualquier modo, estos iones no están presentes en cantidades significantes. 
+        .cajon.color-gris.p-4.mb-3 
+          p.mb-0 Por medio del ablandamiento del agua debe reducirse el contenido de minerales disueltos, particularmente calcio y magnesio que son los mayores impulsores de la dureza del agua, otros iones que pueden producir dureza son el hierro, manganeso, estroncio, bario, zinc y aluminio, de cualquier modo, estos iones no están presentes en cantidades significantes. 
           
         p Los beneficios que deben obtenerse con el ablandamiento del agua son los siguientes: 
 

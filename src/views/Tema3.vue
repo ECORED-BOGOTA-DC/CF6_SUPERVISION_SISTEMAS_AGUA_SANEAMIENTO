@@ -25,62 +25,41 @@
 
     .row.justify-content-center.align-items-center.mt-5.bg-1-tema-3
       .col-lg-4.col-xs-12
-        figure
+        figure.mb-3
           img(src='@/assets/curso/temas/tema3/img2.png', alt='alt')
 
 
       .col-lg-5
-        .tarjeta.tarjeta--morada.p-4
-          SlyderA(tipo="a")
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-lg-8.col-lg-2.mb-5
-                figure
-                  <center>
-                    img(src='@/assets/curso/temas/tema3/img4.svg', alt='Texto que describa la imagen').width-img
-                  </center>
-                  
+        SlyderF(columnas="col-12")
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.align-items-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema3/img4.svg' alt='AvatarTop')
+            p.text-center.mb-5 Para devolverlos directamente a la corriente de agua o descargarlos en alcantarillados, previo tratamiento, debe adquirirse un permiso de las autoridades competentes y deben realizarse estudios de impacto ambiental en el que se demuestre que no contravienen los artículos 72 y 73 del Decreto 1594 del 26 de junio de 1984 expedido por el Ministerio de Salud. 
+    
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.align-items-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema3/img5.svg' alt='AvatarTop')
+            p.text-center.mb-5 Si no es posible lo anterior, se deben llevar a lagunas de almacenamiento en donde se decantan y por extrafiltración y evaporación se elimine el agua de arrastre hasta dejar el lodo semi solidificado. De allí debe extraerse por sistema mecánico y transportarlo al punto de disposición final. 
 
-                p.text-center.mt-3 Para devolverlos directamente a la corriente de agua o descargarlos en alcantarillados, previo tratamiento, debe adquirirse un permiso de las autoridades competentes y deben realizarse estudios de impacto ambiental en el que se demuestre que no contravienen los artículos 72 y 73 del Decreto 1594 del 26 de junio de 1984 expedido por el Ministerio de Salud. 
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.align-items-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema3/img6.svg' alt='AvatarTop')
+            p.text-center.mb-5 Concentrar el lodo en concentradores, extraer dicho lodo y llevarlo a lagunas de secado en donde debe ser solidificado para luego transportarlo y depositarlo en el sitio que se acuerde.
 
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-lg-8.col-lg-2.mb-5
-                figure
-                  <center>
-                    img(src='@/assets/curso/temas/tema3/img5.svg', alt='Texto que describa la imagen').width-img
-                  </center>
-                  
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.align-items-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema3/img7.svg' alt='AvatarTop')
+            p.text-center.mb-5 Secar el lodo por sistemas mecánicos: filtros prensa, centrifugado, filtros al vacío, o camas de secado, extraer la pasta desecada que se produce en ellos y transportarla hasta el lugar de almacenamiento. 
 
-                p.text-center.mt-3 Si no es posible lo anterior, se deben llevar a lagunas de almacenamiento en donde se decantan y por extrafiltración y evaporación se elimine el agua de arrastre hasta dejar el lodo semi solidificado. De allí debe extraerse por sistema mecánico y transportarlo al punto de disposición final. 
-
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-lg-8.col-lg-2.mb-5
-                figure
-                  <center>
-                    img(src='@/assets/curso/temas/tema3/img6.svg', alt='Texto que describa la imagen').width-img
-                  </center>
-                  
-
-                p.text-center.mt-3 Concentrar el lodo en concentradores, extraer dicho lodo y llevarlo a lagunas de secado en donde debe ser solidificado para luego transportarlo y depositarlo en el sitio que se acuerde.
-
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-lg-8.col-lg-2.mb-5
-                figure
-                  <center>
-                    img(src='@/assets/curso/temas/tema3/img7.svg', alt='Texto que describa la imagen').width-img
-                  </center>
-                  
-
-                p.text-center.mt-3 Secar el lodo por sistemas mecánicos: filtros prensa, centrifugado, filtros al vacío, o camas de secado, extraer la pasta desecada que se produce en ellos y transportarla hasta el lugar de almacenamiento. 
-
-            .row.justify-content-center.align-items-center.my-lg-4
-              .col-lg-8.col-lg-2.mb-5
-                figure
-                  <center>
-                    img(src='@/assets/curso/temas/tema3/img8.svg', alt='Texto que describa la imagen').width-img
-                  </center>
-                  
-
-                p.text-center.mt-3 La descarga final del agua lixiviada, si se hace a un cuerpo de agua, debe cumplir con las normas de vertimiento que trata el artículo 72 del Decreto 1594 del 26 de junio de 1984 del Ministerio de Salud.            
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.align-items-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema3/img8.svg' alt='AvatarTop')
+            p.text-center.mb-5 La descarga final del agua lixiviada, si se hace a un cuerpo de agua, debe cumplir con las normas de vertimiento que trata el artículo 72 del Decreto 1594 del 26 de junio de 1984 del Ministerio de Salud.          
               
 
     separador
@@ -100,7 +79,11 @@
     
 
 
-    
+
+
+
+
+
 
 
 
