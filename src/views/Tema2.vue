@@ -40,8 +40,21 @@
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Tasa de producción</span>
 
-        figure.mt-3
-          img(src='@/assets/curso/temas/tema2/img5.svg', alt='alt')
+        .row.justify-content-center.align-items-center
+          .col-lg-6
+            .bg2-fondo1.p-4
+              .row.justify-content-center.align-items-center
+                .col-2
+                .col-10.mt-lg-3
+                  b.text-right Manetener la disponibiblidad y confiabilidad del servicio
+
+          .col-lg-6
+            .bg2-fondo2.p-3
+              .row.justify-content-center.align-items-center
+                .col-9
+                  b Controlar el volumen de producción de agua de acuerdo con la oferta y a la demanda
+                .col-3
+
 
         .list.mb-3(data-aos="fade-down").mt-3
           .list__item
@@ -626,30 +639,653 @@
       p En este caso se debe tener una estructura de disipación para airear el flujo y evitar inestabilidades hidráulicas. Para determinar el tamaño de las válvulas se deben tener en cuenta dos factores: el caudal máximo de descarga y la mínima altura disponible en la entrada de la válvula. En caso de que las válvulas de cono o chorro hueco tengan la posibilidad de descargar en forma sumergida, bajo cualquier condición de operación, el diseño debe tener en cuenta la posibilidad de ocurrencia de cavitación y, por consiguiente, debe plantear las medidas de protección necesarias.
 
 
+    separador
+
+    #t_2_3.titulo-segundo.color-acento-contenido
+       h2 2.3 Bombas
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8.mb-4
+        p.mb-4 Son dispositivos que permiten bombear o impulsar el agua de un lugar a otro, usualmente su movimiento es ascendente; existen diferentes tipos de bombas pero todas constan de un orificio de entrada o también denominado de aspiración, y otro de salida o de impulsión. El número de bombas en la estación de bombeo debe definirse desde la etapa de diseño de acuerdo con la capacidad requerida, las etapas de desarrollo y la energía disponible, al igual que estar sujeto a una evaluación económica. De todas formas, el número mínimo de bombas es dos, cada una con una capacidad igual al caudal de diseño de la estación de bombeo.
+
+        .cajon.color-gris.p-4
+          p.mb-0 Cuando el número de bombas sea mayor que dos, la capacidad debe distribuirse equitativamente entre ellas. Además, deben preverse unidades de reserva del mismo tipo; cuando se requieran tres o más bombas, debe colocarse una unidad adicional como reserva por cada tres bombas empleadas.
+
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img40.svg', alt='alt')      
 
 
+    .row.mt-5
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Tipos de bombas</span>
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img41.svg', alt='alt')
+
+      .col-lg-8
+        p Desde la etapa de diseño, las bombas deben seleccionarse de forma tal que se obtenga la capacidad y la altura dinámica requeridas, establecidas por el punto de operación el cual debe determinarse de acuerdo con las curvas características del sistema de bombeo y del sistema de tuberías de impulsión. 
+
+        p El dimensionamiento y la selección del tipo de bombas debe realizarse en conjunto con la tubería de impulsión y con el tanque de almacenamiento de aguas abajo, buscando siempre la condición de costo mínimo, incluyendo los costos iniciales, los costos de construcción, de operación, de expansión y de mantenimiento. 
+
+        .cajon.color-gris.p-4
+          p.mb-0 Adicionalmente deben tenerse en cuenta #[b la Norma Técnica NTC 1775 y las normas AWWA E 101.]
+          p.mb-0 El diseño debe tener en cuenta los siguientes criterios para la selección del tipo de bombas, veamos: 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        ul.lista-ul--color.lista-ul--separador.fa-ul2
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | El espacio requerido para la instalación de las bombas dentro de la estación de bombeo. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | La forma de operación prevista de las bombas, en serie o en paralelo. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | La variación en los niveles máximo y mínimo en el pozo de succión y en la descarga. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | La variación de los caudales bajo las diferentes condiciones de operación hidráulica de la estación de bombeo. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | El tiempo de operación de las bombas.
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | La compatibilidad con otros equipos de bombeo existentes en el municipio.
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | El nivel del ruido generado por la operación de las bombas.
+
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img42.svg', alt='alt')
+
+    .row.mb-5
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Materiales de las bombas</span>
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img43.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Los materiales de las bombas incluyendo los impulsores, las carcasas y otros componentes, deben ser seleccionados de acuerdo con las características del agua que va a bombearse y teniendo en cuenta la temperatura, la conductividad, la capacidad de corrosión y los sólidos en suspensión.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .cajon.color-gris.p-4
+        p.mb-0 El material de las bombas y de los diferentes componentes debe resistir los efectos de corrosión que el agua pueda causar en ellos. Se pueden utilizar materiales como: hierro fundido, acero inoxidable, acero al carbón, acero fundido y hierro dúctil. Para los accesorios de la bomba se puede usar latón y bronce. Todos los materiales utilizados deben estar certificados por normas técnicas nacionales o internacionales.
 
 
+    separador
+
+    #t_2_4.titulo-segundo.color-acento-contenido
+       h2 2.4 Sustancias químicas para el tratamiento de agua
 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/temas/tema2/img44.svg', alt='alt')
+
+      .col-lg-7
+        p #[b De acuerdo con el RAS 2000, título C], las sustancias químicas para el tratamiento de aguas más utilizadas son los coagulantes y de estos, los que pueden emplearse son:
+
+        ul.lista-ul--color.lista-ul--separador.fa-ul2
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Coagulantes metálicos.
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Coagulantes polímeros orgánicos e inorgánicos.
 
 
+    .row.mb-5
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Coagulantes metálicos</span>
+
+    .row.justify-content-center.align-items-center.mb-5
+      p Para la dosificación en la coagulación por adsorción-neutralización debe tenerse en cuenta la relación estequiométrica entre la dosis del coagulante y la concentración de los coloides, ya que una sobredosis conduce a una reestabilización de las partículas. Para aguas con bajo nivel de alcalinidad, se recomienda aumentar el pH añadiendo hidróxido de calcio (Ca(OH)2).
+
+      p.mb-5 Estos coagulantes metálicos son de dos tipos: 
+
+      .row 
+        .col-lg-6
+          .bg2-fondo3.p-4
+            .row 
+              .col-3
+              .col-9.col-lg-8
+                h4 Sales de aluminio
+                p Los coagulantes con sales de aluminio son:
+
+                ul.lista-ul--color.lista-ul--separador.fa-ul2
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta1
+                    | Sulfato de aluminio
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta1
+                    | Sulfato de aluminio amoniacal.
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta1
+                    | Aluminato de sodio.
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta1
+                    | Policloruro de aluminio.
+
+        .col-lg-6
+          .bg2-fondo4.p-4
+            .row 
+              .col-9.col-lg-8
+                h4 Sales de hierro
+                p Los coagulantes con sales de hierro son:
+
+                ul.lista-ul--color.lista-ul--separador.fa-ul2
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta2
+                    | Cloruro férrico.
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta2
+                    | Sulfato férrico.
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta2
+                    | Sulfato ferroso.
+
+              .col-lg-3
 
 
+    .row.mb-5
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Coagulantes polímeros</span>
 
 
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-4.mb-3
+        figure
+          img(src='@/assets/curso/temas/tema2/img45.svg', alt='alt')
+
+      .col-lg-8.mb-3
+        p.mb-4  Se pueden emplear los polímeros de hierro (III) y aluminio (III) como coagulantes. Entre los polímeros orgánicos o polielectrolitos que se pueden emplear están los polímeros naturales y los sintéticos. Entre los primeros están los derivados del almidón, la celulosa y los materiales proteicos. Para la aplicación de los coagulantes sintéticos debe solicitarse la aprobación del Ministerio de Salud y Protección Social o verificar que haya sido aprobado su uso en el tratamiento del agua potable por la Comunidad Europea, por Estados Unidos o por Canadá. 
+
+        .cajon.color-gris.p-4
+          p.mb-0 En la operación, la velocidad de agitación debe ser menor, ya que altas velocidades pueden llegar a romper las largas cadenas poliméricas; por tanto, debe mantenerse una mezcla uniforme y se debe evitar la ruptura de los puentes formados entre polímeros y coloides. Para su empleo se recomienda la realización de ensayos de jarras en rangos amplios de dosificaciones y de bajas velocidades para determinar la dosificación óptima.
 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        p En caso de emplearse los polielectrolitos debe tenerse en cuenta los siguientes aspectos: 
+
+        ul.lista-ul--color.lista-ul--separador.fa-ul2
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Es necesario conocer las características físicas y químicas del polímero: si es catiónico, aniónico o no iónico. Los polielectrolitos catiónicos coagulan rápidamente las algas. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Los polielectrolitos no son igualmente efectivos con todas las aguas. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | La sobredosis de polielectrolitos produce reestabilización. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Algunos deben añadirse en solución diluida para asegurar una completa mezcla. Otros por su naturaleza no pueden manejarse diluidos.
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Debe conocerse la máxima concentración en que se puede aplicar, lo mismo que los volúmenes que se pueden manejar y las condiciones óptimas de preparación de las soluciones diluidas. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Debe conocerse el tipo de equipo recomendado para su dosificación. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Se recomienda evaluar la naturaleza y propiedades del producto a utilizar en lo que tiene que ver con la corrosión, abrasión y en algunos casos los requerimientos de equipo por parte del fabricante.
+
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img46.svg', alt='alt')
+
+    .row.mb-5
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Productos auxiliares</span>
 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/temas/tema2/img47.svg', alt='alt')
+
+      .col-lg-7
+        .cajon.color-gris.p-4
+          p.mb-0 Pueden adicionarse como auxiliares de la coagulación, de la floculación y de la filtración, si en los ensayos de laboratorio se ha determinado que es conveniente. En su selección, deben escogerse productos auxiliares que no vayan a tener efectos adversos sobre la calidad del agua tratada. Pueden emplearse sustancias auxiliares de la coagulación para lograr el pH óptimo de coagulación. Un caso de éxito es el almidón.
 
 
+    separador
+
+    #t_2_5.titulo-segundo.color-acento-contenido
+       h2 2.5 Equipos para dosificación de insumos en la potabilización
 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img48.svg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El material de las bombas y de los diferentes componentes debe resistir los efectos de corrosión que el agua pueda causar en ellos. Se pueden utilizar materiales como: hierro fundido, acero inoxidable, acero al carbón, acero fundido y hierro dúctil. Para los accesorios de la bomba se puede usar latón y bronce. Todos los materiales utilizados deben estar certificados por normas técnicas nacionales o internacionales.
 
 
+    .row.mb-5
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Unidades de dosificación</span>
 
 
+    .row.justify-content-center.align-items-center.mb-3
+      p.mb-4 Según establece el RAS, de acuerdo con las características de los productos químicos disponibles en el mercado, pueden emplearse dosificadores en seco o en solución. 
+
+      ol.lista-ol--cuadro.fa-ul2.mb-3
+        li 
+          .lista-ol--cuadro__vineta
+            span 1
+          p.mb-0 <b>Dosificadores en seco:</b> deben emplearse para la aplicación de sustancias químicas en polvo o en forma granular. Los dosificadores pueden ser volumétricos o gravimétricos, esto es:
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      TabsC.color-primario.mb-5
+        .py-3.py-md-4(titulo="Volumétricos")
+          .row
+            .col-md-8.mb-4.mb-md-0
+              p En este tipo de dosificadores la dosis requerida debe determinarse midiendo el volumen de material que libera una superficie que se desplaza a velocidad constante. Los dosificadores más utilizados son la válvula alveolar, el disco giratorio, el cilindro giratorio, el plato oscilante y de tornillo. El disco giratorio se recomienda para dosificar sulfato de aluminio, cal, carbonato de sodio o de calcio. Debe proveerse de agua de buena calidad para la preparación de la solución, lo mismo que una adecuada mezcla. 
+          
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img49.svg', alt='alt')
+
+        .py-3.py-md-4(titulo="Gravimétricos")
+          .row
+            .col-md-8.mb-4.mb-md-0
+              p La cantidad de producto químico dosificado debe medirse pesando el material que descarga en una determinada unidad de tiempo, o con base en una pérdida de peso constante del material depositado en la tolva. Los dosificadores más empleados son la de correa transportadora y la de pérdida de peso. Para el empleo de dosificadores en seco deben tenerse en cuenta los siguientes aspectos:
+
+              ul.lista-ul--color.lista-ul--separador.fa-ul2
+                li.l-p
+                  i.fas.fa-check-circle.color-vineta1
+                  | Los productos químicos dosificados en seco deben ser disueltos en agua antes de su aplicación. 
+                li
+                  i.fas.fa-check-circle.color-vineta1
+                  | Deben preverse tolvas de acumulación con dosificadores cuya capacidad sea de 8 a 12 horas de aplicación continua del producto químico a su máxima capacidad de descarga.
+
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img50.svg', alt='alt')
+
+
+    .row.justify-content-center.align-items-center.mb-3
+      ol.lista-ol--cuadro.fa-ul2.mb-3
+        li 
+          .lista-ol--cuadro__vineta
+            span 2
+          p.mb-0 <b>Dosificadores en solución:</b> deben usarse para dosificar por vía húmeda o para dosificar líquidos. Pueden ser de dos tipos: por bombeo y por gravedad, veamos esto a mayor detalle:
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      TabsC.color-primario.mb-5
+        .py-3.py-md-4(titulo="Sistemas por bombeo")
+          .row
+            .col-md-8.mb-4.mb-md-0
+              p Se pueden emplear las bombas de pistón y de diafragma. La bomba dosificadora de pistón es muy precisa, pero debe emplearse con precaución en el caso de productos abrasivos o muy corrosivos.
+
+              p La bomba dosificadora de diafragma es accionada hidráulicamente, debe utilizarse para líquidos corrosivos, tóxicos, abrasivos, viscosos; puede estar provista de membrana simple o doble. Constan de los siguientes componentes: 
+
+              .row 
+                .col-lg-4
+                  ul.lista-ul--color.lista-ul--separador.fa-ul2
+                    li.l-p
+                      i.fas.fa-check-circle.color-vineta1
+                      | Tanques de solución.
+                
+                .col-lg-4
+                  ul.lista-ul--color.lista-ul--separador.fa-ul2
+                    li.l-p
+                      i.fas.fa-check-circle.color-vineta1
+                      | Tanque de almacenamiento.
+                
+                .col-lg-4
+                  ul.lista-ul--color.lista-ul--separador.fa-ul2
+                    li.l-p
+                      i.fas.fa-check-circle.color-vineta1
+                      | Bombas dosificadoras. 
+
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img51.svg', alt='alt')
+
+        .py-3.py-md-4(titulo="Sistemas por gravedad")
+          .row
+            .col-md-8.mb-4.mb-md-0
+              p Pueden emplearse los de carga constante y los de carga regulable. En los de carga constante debe mantenerse una carga constante de agua sobre un orificio para obtener un caudal de dosificación constante. El caudal debe calibrarse a la salida mediante una válvula. Este sistema debe constar de:
+
+              ul.lista-ul--color.lista-ul--separador.fa-ul2
+                li.l-p
+                  i.fas.fa-check-circle.color-vineta1
+                  | Un tanque de solución.
+                li.l-p
+                  i.fas.fa-check-circle.color-vineta1
+                  | Un tanque dosificador que puede ser de orificio regulable o fijo.
+                li
+                  i.fas.fa-check-circle.color-vineta1
+                  | Un dispositivo de medida.
+
+            .col-md-4
+              figure
+                img(src='@/assets/curso/temas/tema2/img52.svg', alt='alt')
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        ol.lista-ol--cuadro.fa-ul2.mb-3
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            p.mb-0 <b>Aplicadores de Cal:</b> la Cal puede aplicarse ya sea en solución concentrada teniendo en cuenta la temperatura de apagado de la cal viva, o en suspensión como cal apagada. Los saturadores de cal pueden emplearse para producir una solución saturada de hidróxido de calcio, Ca (OH)2. Este equipo consta de un tanque donde se deposita la cal que debe ser disuelta. El agua debe introducirse en la cal por el fondo del tanque, y la solución saturada debe colectarse en la superficie libre mediante canaletas, o en la proximidad a la superficie.
+
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img53.svg', alt='alt')      
+
+    .row.mb-5
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Selección del dosificador</span>
+
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-3
+        figure
+          img(src='@/assets/curso/temas/tema2/img54.svg', alt='alt')
+
+      .col-lg-9
+        p En el proceso de tratamiento de agua se utilizan diferentes productos químicos que garantizan la efectividad de este proceso; sin embargo se debe tener mucha claridad frente a la cantidad a dosificar y esto depende también de diversas variables como la calidad de agua, su caudal y el objetivo que se espera con el producto a dosificar. La mayoría de estos productos son líquidos y se deben suministrar a través de bombas dosificadoras, por lo que es necesario conocer el tipo de dosificador a utilizar.
+
+        p En la selección del tipo de dosificador se deben tener en cuenta los siguientes aspectos:
+
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7
+        ul.lista-ul--color.lista-ul--separador.fa-ul2
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | La precisión requerida, la confiabilidad para aplicar siempre la dosis predeterminada, el tipo de producto por dosificar y el rango de caudal de trabajo máximo y mínimo. 
+        ul.lista-ul--color.lista-ul--separador.fa-ul2
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Factores técnicos y económicos. 
+        ul.lista-ul--color.lista-ul--separador.fa-ul2
+          li
+            i.fas.fa-check-circle.color-vineta1
+            | Los dosificadores deben tener una capacidad para dosificar por lo menos, la dosis que cubra las condiciones más desfavorables del agua por tratar. d. Deben conseguirse en el mercado las piezas de repuestos para el tipo de dosificador seleccionado. e. Para los niveles de complejidad de sistema bajo y medio deben preferirse los dosificadores con control manual; para los niveles de complejidad de sistema medio alto y alto el control puede ser automático, pero debe estar diseñado para permitir su manejo manual en caso de daño o emergencia y tener por lo menos dos unidades de dosificación.
+
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/temas/tema2/img55.svg', alt='alt')
+
+
+    .row.mb-5
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Ensayos de tratabilidad: concepto, métodos</span>
+
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img56.svg', alt='alt')
+
+      .col-lg-8
+        p De igual manera el RAS en su título C, define los estudios de tratabilidad como una serie de ensayos de laboratorio o en planta piloto, realizados por lo menos a dos tipos de aguas crudas, uno representativo de aguas en condiciones de verano y otro de condiciones de invierno, bien sea en laboratorio, usando equipos para prueba de jarras con modificaciones para asegurar la calidad de los datos a obtener, o bien sea realizados en planta piloto. 
+
+        .cajon.color-gris.p-4
+          p.mb-4 Con los estudios o ensayos de tratabilidad se obtienen los parámetros reales con los cuales se debe diseñar, optimizar, evaluar y operar una planta de tratamiento. Diferentes ensayos de tratabilidad de las aguas para su potabilización, entre otros está:
+
+
+    .row.mb-5
+      .col-lg-1
+        figure
+          img(src='@/assets/curso/temas/tema2/img57.svg', alt='alt').img57-tm2
+
+      .col-lg-11
+        .tarjeta.bgtarjeta2.p-4
+          .row.justify-content-center.align-items-center
+            .col-1
+            .col-11
+              p.mb-0 La caracterización del agua cruda a tratar debe realizarse sobre muestras representativas de por lo menos un ciclo hidrológico anual, con el fin de analizar todas las posibles calidades de agua cruda que se puedan presentar históricamente durante ese periodo; es decir, cambios en la turbiedad, color, características microbiológicas, demanda de cloro, temperatura, pH, alcalinidad, contenido de algas, hierro y manganeso, cambios en el sabor y olor, entre otros. De no ser esto posible, acudir a registros históricos de calidades de agua existentes en corporaciones regionales, secretarías de salud y sistemas que se abastezcan de las mismas fuentes.
+
+    .row.mb-5
+      p Uno de los ensayos más comunes es el ensayo de jarras, que permite determinar variables dentro de los procesos de coagulación y floculación, el RAS 2000, título C, establece los ensayos que se pueden determinar de acuerdo con el proceso de tratamiento de agua son:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/temas/tema2/img58.svg', alt='alt')
+
+      .col-lg-7
+        SlyderF(columnas="col-12")
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema2/img59.svg' alt='AvatarTop')
+            h4.text-center.mb-5 Para la caracterización de las aguas crudas a tratar:
+            .row
+              .col-lg-6
+                ul.lista-ul--color.fa-ul2
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Turbiedad.          
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Color.
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | PH.
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Alcalinidad. 
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Temperatura.
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Conductividad.
+
+              .col-lg-6
+                ul.lista-ul--color.fa-ul2
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Conductividad.           
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Hierro.
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Cloruros. 
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Sulfatos.
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Nitratos. 
+                  li
+                    i.fas.fa-check-circle.color-vineta1
+                    | Dureza.
+
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema2/img60.svg' alt='AvatarTop')
+            h4.text-center.mb-5 Para coagulación y mezcla rápida:
+            ul.lista-ul--color.fa-ul2
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Dosis óptima de coagulante.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Necesidad y dosis de alcalinizante o cal primaria.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Secuencia de aplicación de coagulante y alcalinizante.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Necesidad y dosis de ayudantes de coagulación o uso de polímeros.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Gradiente hidráulico y tiempo de mezcla.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | El pH óptimo de coagulación. 
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Concentración óptima del coagulante a utilizar.
+
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema2/img61.svg' alt='AvatarTop')
+            h4.text-center.mb-5 Para floculación:
+            ul.lista-ul--color.fa-ul2
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Gradientes y tiempos óptimos. 
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Tiempo total de floculación.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Secuencia decreciente del gradiente y tiempos de aplicación. 
+
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema2/img62.svg' alt='AvatarTop')
+            h4.text-center.mb-5 Para decantación:
+            ul.lista-ul--color.fa-ul2
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Velocidades de sedimentación de partículas floculadas. 
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Cargas superficiales por aplicar y turbiedad. remanente con cada una de ellas. 
+
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema2/img63.svg' alt='AvatarTop')
+            h4.text-center.mb-5 Para filtración:
+            ul.lista-ul--color.fa-ul2
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Índice de filtrabilidad. 
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Remoción esperada.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Carrera de filtración.
+
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema2/img64.svg' alt='AvatarTop')
+            h4.text-center.mb-5 Para desinfección:
+            ul.lista-ul--color.fa-ul2
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Demanda de cloro. 
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Dosis de cloro a aplicar al agua filtrada.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Tiempo de retención. 
+
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema2/img65.svg' alt='AvatarTop')
+            h4.text-center.mb-5 Para estabilización:
+            ul.lista-ul--color.fa-ul2
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Índice de agresividad del agua.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Saturación.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Dosis de alcalinizante o de cal secundaria para ajuste del pH.
+
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema2/img66.svg' alt='AvatarTop')
+            h4.text-center.mb-5 Para ablandamiento:
+            ul.lista-ul--color.fa-ul2
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Dosis de cal soda.
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Efectividad de zeolitas.
+
+          .tarjeta.tarjeta--gris.p-4
+            .row.justify-content-center.mb-3
+              .col-4.mb-4
+                img(src='@/assets/curso/temas/tema2/img67.svg' alt='AvatarTop')
+            h4.text-center.mb-5 Para filtración directa:
+            ul.lista-ul--color.fa-ul2
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Dosis de coagulantes o ayudantes. 
+              li
+                i.fas.fa-check-circle.color-vineta1
+                | Remoción en filtración.
 
 
 
