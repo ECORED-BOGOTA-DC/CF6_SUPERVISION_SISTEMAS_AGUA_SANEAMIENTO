@@ -182,10 +182,27 @@
           img(src='@/assets/curso/temas/tema2/img17.png', alt='alt')
 
       .col-lg-6
-        p Los instrumentos de presión deben estar sujetos a los siguientes grupos: 
+        p Los instrumentos de presión deben estar sujetos a los siguientes grupos:
 
-        figure
-          img(src='@/assets/curso/temas/tema2/img18.svg', alt='alt', style="width: 60%;")
+        .row 
+          .col-lg-6
+            ul.lista-ul--color.lista-ul--separador.fa-ul2.mb-3
+              li.l-p
+                i.fas.fa-check-circle.color-vineta2
+                | Mecánicos
+              li.l-p
+                i.fas.fa-check-circle.color-vineta2
+                | Neumáticos
+
+          .col-lg-6
+            ul.lista-ul--color.lista-ul--separador.fa-ul2.mb-3
+              li.l-p
+                i.fas.fa-check-circle.color-vineta2
+                | Electromecánicos
+              li.l-p
+                i.fas.fa-check-circle.color-vineta2
+                | Electrónicos
+
 
         .cajon.cajon-tema2.p-4.mt-3
           p Deben aplicarse medidores de presión a líneas o procesos que se encuentren encerrados tales como sistemas de distribución de aire comprimido, líneas de descarga de bombas y tanques, para esta finalidad se encuentran manómetros, tubos manométricos Bourdon, elemento en espiral, helicoidal, fuelles, medidores de presión diferencial de diafragma, medidores capacitivos y ultrasónicos.
@@ -245,10 +262,33 @@
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10
-        p <b>Nota:</b> importante para tener en cuenta, dentro de las válvulas de control es necesario verificar el tipo de conexión realizada entre la válvula y la tubería del proceso. Entre los diferentes tipos de válvulas deben acondicionarse principalmente las siguientes: 
+        .cajon.color-gris.p-4.mb-4
+          p.mb-0 <b>Nota:</b> importante para tener en cuenta, dentro de las válvulas de control es necesario verificar el tipo de conexión realizada entre la válvula y la tubería del proceso. Entre los diferentes tipos de válvulas deben acondicionarse principalmente las siguientes: 
 
-        figure
-          img(src='@/assets/curso/temas/tema2/img23.svg', alt='alt', style="width: 55%;" )
+        .row
+          .col-lg-8
+            .row 
+              .col-lg-6
+                ul.lista-ul--color.lista-ul--separador.fa-ul2.mb-3
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta2
+                    | Válvulas de globo.
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta2
+                    | Válvulas de mariposa.
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta2
+                    | Válvulas de bola.
+
+              .col-lg-6
+                ul.lista-ul--color.lista-ul--separador.fa-ul2.mb-3
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta2
+                    | Válvulas de diafragma.
+                  li.l-p
+                    i.fas.fa-check-circle.color-vineta2
+                    | Válvulas tapón.
+
 
       .col-lg-2
         figure
@@ -338,17 +378,17 @@
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Tipos de válvulas</span>
 
     .row.justify-content-center.align-items-center.mt-3
-      .col-lg-3
+      .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img28.png', alt='alt')
 
-      .col-lg-9
+      .col-lg-8
         p El el proceso de potabilización de agua, se requiere de válvulas resistentes y que su tiempo de duración sea largo, es por esta razón que se debe conocer los tipos de válvulas, su funcionalidad, material y protocolos de uso entre otras características. 
 
         p Entre las válvulas se encuentran, las que se describen a continuación: 
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-9
+      .col-lg-8
         ol.lista-ol--cuadro.fa-ul2
           li 
             .lista-ol--cuadro__vineta
@@ -356,24 +396,24 @@
             p.mb-0 <b>Válvulas de corte o cierre:</b> las válvulas de corte o cierre deben localizarse al comienzo de la línea de conducción y al final de ésta si la presión es mayor que 50 m.c.a. Para todos los niveles de complejidad del sistema, se debe hacer un estudio de los transientes hidráulicos ocasionados por la operación de las válvulas en el sistema y el diseño debe incluir recomendaciones sobre su operación.
 
         .cajon.cajon-tema2.p-4.mt-3
-          p En aquellos casos en que la tubería presenta grandes desniveles debido a la topografía del terreno, se debe verificar la condición del cierre de una válvula de corte y sus características. 
+          p.mb-0 En aquellos casos en que la tubería presenta grandes desniveles debido a la topografía del terreno, se debe verificar la condición del cierre de una válvula de corte y sus características. 
 
-      .col-lg-3
+      .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img29.png', alt='alt')
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-3
+      .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img30.png', alt='alt')
 
-      .col-lg-9
+      .col-lg-8
         p Las válvulas de cierre o corte deben cumplir con las correspondientes normas técnicas colombianas y si estas no existen con las Normas Técnicas: American Water Works Association [AWWA], American Society for Testing and Materials [ASTM], Deutsches Institut für Normung [DIN], International Organization for Standardization [ISO], American Petroleum Institute [API] o cualquier otra norma de reconocimiento internacional equivalente, previa aprobación del Ministerio de Ambiente Vivienda y Desarrollo Territorial, para el caso de los niveles de complejidad del sistema bajo y medio o de la persona prestadora del servicio para los niveles de complejidad del sistema medio alto y alto. 
 
         p Adicionalmente, el diseño debe evaluar la necesidad de instalar válvulas de corte intermedias a lo largo de la línea de conducción en sistemas de gravedad. El diámetro de la válvula debe seleccionarse igual al diámetro de las tuberías de conducción y debe verificarse para evitar problemas de cavitación en el caso de que se tengan flujos con altas velocidades. 
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-lg-9
+      .col-lg-8
         ol.lista-ol--cuadro.fa-ul2
           li 
             .lista-ol--cuadro__vineta
@@ -381,9 +421,9 @@
             p.mb-0 <b>Válvulas de ventosa:</b> en los puntos altos de la línea de conducción deben colocarse ventosas con el fin de facilitar la salida del aire que eventualmente se acumula en la conducción durante su funcionamiento o cuando se procede a su llenado o vaciado. De igual forma, cuando la tubería tenga una pendiente constante se debe colocar una válvula ventosa cada 300 m. 
 
         .cajon.cajon-tema2.p-4.mt-3
-          p Dichos dispositivos deben permitir también la entrada automática de aire durante las operaciones de descarga de la tubería o cuando el caudal de agua se disminuye por causa de una rotura, de maniobras o de paradas en el flujo de la tubería. El diseño debe tener en cuenta los siguientes aspectos:
+          p.mb-0 Dichos dispositivos deben permitir también la entrada automática de aire durante las operaciones de descarga de la tubería o cuando el caudal de agua se disminuye por causa de una rotura, de maniobras o de paradas en el flujo de la tubería. El diseño debe tener en cuenta los siguientes aspectos:
 
-      .col-lg-3
+      .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img31.png', alt='alt')
 
@@ -423,23 +463,23 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-8
         ul.lista-ul--color.lista-ul--separador.fa-ul2
-          li
+          li.l-p
             i.fas.fa-check-circle.color-vineta1
             | Cada ventosa debe estar protegida por una cámara de inspección accesible, con su respectivo drenaje de aguas y los respiraderos necesarios para garantizar el flujo de aire y estar completamente asegurada. 
 
-          li
+          li.l-p
             i.fas.fa-check-circle.color-vineta1
             | Los dispositivos de entrada de aire deben localizarse de tal modo que no se introduzca agua extraña al sistema. Los dispositivos previstos deben instalarse de tal manera que sus aperturas se sitúen por lo menos un metro (1.0 m) por encima del nivel máximo de agua que pudiera acumularse en el sitio de la ventosa. 
 
-          li
+          li.l-p
             i.fas.fa-check-circle.color-vineta1
             |  Deben disponerse puntos intermedios para la entrada de aire en la tubería cuando la línea piezométrica correspondiente a la carga de un tramo del conducto durante operaciones de mantenimiento y/o reparación, se sitúe por debajo de éste, de forma tal que cause problemas de discontinuidad en la columna líquida o problemas de posible colapso de la tubería por aplastamiento. 
 
-          li
+          li.l-p
             i.fas.fa-check-circle.color-vineta1
             | Como dispositivos automáticos para la entrada o salida de aire de las líneas de conducción pueden utilizarse los siguientes: ventosas de doble efecto para la descarga del aire acumulado durante el llenado y durante la operación normal de la conducción y para la entrada en las operaciones de descarga de agua. Tubos verticales o chimeneas cuando su extremidad superior pueda situarse por encima de la línea piezométrica máxima para la entrada de aire. 
 
-          li
+          li.l-p
             i.fas.fa-check-circle.color-vineta1
             | En el caso que exista una válvula intermedia en la conducción, ésta debe estar dotada de un paso lateral (by pass) de tal manera que permita el flujo de aire hacia la ventosa. Este paso lateral debe estar dotado de su propia válvula de corte y se debe utilizar cuando:
 
@@ -464,15 +504,155 @@
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img33.png', alt='alt')
+
+    .row.justify-content-center.align-items-center.mb-5
+      ul.lista-ul--color.lista-ul--separador.fa-ul2
+        li.l-p
+          i.fas.fa-check-circle.color-vineta1
+          | Las válvulas de ventosa deben cumplir con normas técnicas nacionales e internacionales, tales como la Norma Técnica Colombiana correspondiente, la Norma AWWA C512, fabricadas bajo normas internacionales, de reconocimiento internacional, que le aplique y se demuestra mediante certificado de producto. 
+        li
+          i.fas.fa-check-circle.color-vineta1
+          |  La localización de las válvulas de ventosa a lo largo de la conducción y su dimensionamiento debe considerar los requerimientos de evacuación de aire presentados durante las operaciones de llenado de las tuberías que conformen la conducción o la red de conducciones, analizando la posibilidad de bloqueo del flujo. 
+
+    .row.justify-content-center.align-items-center.my-5
+      ol.lista-ol--cuadro.fa-ul2
+        li 
+          .lista-ol--cuadro__vineta
+            span 3
+          p.mb-0 <b>Válvulas de purga o desagüe:</b> en los puntos bajos de la tubería de conducción o cada 350 m, deben colocarse válvulas de desagüe o de limpieza. En estos casos deben tenerse en cuenta los siguientes aspectos:
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img35.svg', alt='alt')
+
+      .col-lg-8   
+        ul.lista-ul--color.lista-ul--separador.fa-ul2
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | La descarga debe permitir la eliminación total del agua contenida en la tubería de conducción. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Se recomienda que el diámetro de la tubería de desagüe esté entre 1/3 y 1/4 del diámetro de la tubería principal, con un mínimo de 100 mm para tuberías mayores que 100 mm. Para diámetros menores debe adoptarse el mismo diámetro de la tubería principal. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | El diseño de las válvulas de purga debe realizarse de forma integrada con el de las válvulas de ventosa. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Cada válvula debe estar protegida con una cámara de inspección accesible con su respectivo drenaje.
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Si la velocidad de salida de la válvula de purga es mayor que 3 m/s, debe colocarse una estructura de disipación de energía. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Si la velocidad de salida de la válvula de purga es mayor que 3 m/s, debe hacerse un estudio de cavitación. 
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | El dimensionamiento de la descarga debe realizarse teniendo en cuenta los siguientes puntos: 
+
+        ol.lista-ol--cuadro.fa-ul2
+          li 
+            .lista-ol--cuadro__vineta
+              span a
+            | La obtención de una velocidad mínima que sea compatible con la remoción del material sedimentado y las biopelículas en el interior de la tubería, durante por lo menos el primer minuto de descarga. 
+          li 
+            .lista-ol--cuadro__vineta
+              span b
+            | Que el tiempo máximo para descarga sea impuesto por las condiciones de operación. 
+          li 
+            .lista-ol--cuadro__vineta
+              span c
+            | El caudal máximo permitido por el sistema de recepción del agua descargada.
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-8.mb-3
+        ol.lista-ol--cuadro.fa-ul2.mb-4
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            p.mb-0 <b>Válvulas de cheque:</b> en el caso que la línea de aducción o de conducción corresponda a la línea de impulsión de un bombeo, el diseño debe contemplar el uso de válvulas de cheque o retención con el fin de evitar el retroceso del agua, con el consiguiente vaciado del conducto y sus posibles daños en las bombas o aplastamiento de la tubería. Las válvulas de cheque sencillas o de doble acción deben cumplir con lo establecido en las Normas Técnicas Colombianas correspondientes o en su defecto con las Normas AWWA, C508, AWWA C515, o cualquier otra norma de reconocimiento internacional equivalente.
+
+        .cajon.color-gris.p-4
+          p.mb-0 El uso de las válvulas de cheque en el diseño deberá contar con la aprobación previa de la persona prestadora del servicio. En el caso que las válvulas de cheque estén fabricadas utilizando aleaciones de cobre, estas deben cumplir con la Norma Técnica Colombiana NTC 1762.
+
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img36.svg', alt='alt')      
+
     
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img37.svg', alt='alt')     
+
+      .col-lg-8  
+        ol.lista-ol--cuadro.fa-ul2.mb-3
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            p.mb-0 <b>Válvulas de protección contra golpe de ariete:</b> este tipo de válvulas deben instalarse en tuberías de aducción por bombeo, sometidas a riesgos de sobrepresiones por golpe de ariete, sobre la línea de impulsión, con el fin de proteger las bombas y las tuberías correspondientes. Podrán utilizarse válvulas de alivio de presión, caso en el cual, éstas deben estar especificadas según normas técnicas nacionales o internacionales, de reconocimiento internacional, tales como la NTC correspondiente, la Norma AWWA C 506, o normas ISO y EN.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-8.mb-4
+        ol.lista-ol--cuadro.fa-ul2.mb-3
+          li 
+            .lista-ol--cuadro__vineta
+              span 6
+            p.mb-0 <b>Válvulas de flujo o paso anular:</b> se utilizan para la regulación de caudales y pueden tener o no regulación de presión. Las válvulas con regulación de presión cuentan con dispositivos para reducir la presión a la entrada de los tanques de almacenamiento y/o compensación.
+
+        .cajon.color-gris.p-4
+          p.mb-0 Las válvulas sin regulación de presión no tienen ese tipo de dispositivos y son utilizadas en puntos intermedios de las conducciones o en entradas a tanques con presiones bajas, siempre y cuando el flujo sea unidireccional. Estas válvulas deben tener un obturador interior en forma de émbolo que se mueva axial y perpendicularmente al asiento, para dejar un paso anular al agua en cualquier posición.
+
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema2/img38.svg', alt='alt')
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-4.mb-3
+        figure
+          img(src='@/assets/curso/temas/tema2/img39.svg', alt='alt')
+      
+      .col-lg-8.mb-4
+        ol.lista-ol--cuadro.fa-ul2.mb-3
+          li 
+            .lista-ol--cuadro__vineta
+              span 7
+            p.mb-0 <b>Válvulas de cono o chorro hueco:</b> para el caso de las estructuras de descarga de las líneas de conducción, con el objeto de vaciar la tubería o producir las velocidades necesarias para el desprendimiento de biopelículas o de depósitos inorgánicos al interior de la tubería en operaciones de lavado, el diseño debe contemplar la instalación de válvulas de cono o chorro hueco acompañadas de sus correspondientes estructuras de disipación de energía y canales de descarga a los cuerpos receptores.
+
+        .cajon.color-gris.p-4
+          p.mb-0 Este tipo de válvulas son generalmente usadas para descargar el agua de forma superficial a los canales y/o cuerpos receptores. Sin embargo, pueden ser instaladas bajo tierra cuando el nivel de agua, en la zona aguas abajo, se encuentre por encima del nivel de instalación de la válvula.
+
+    .row.justify-content-center.align-items-center.mb-5
+      p En este caso se debe tener una estructura de disipación para airear el flujo y evitar inestabilidades hidráulicas. Para determinar el tamaño de las válvulas se deben tener en cuenta dos factores: el caudal máximo de descarga y la mínima altura disponible en la entrada de la válvula. En caso de que las válvulas de cono o chorro hueco tengan la posibilidad de descargar en forma sumergida, bajo cualquier condición de operación, el diseño debe tener en cuenta la posibilidad de ocurrencia de cavitación y, por consiguiente, debe plantear las medidas de protección necesarias.
 
 
 
-    
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </template>
 
 <script>

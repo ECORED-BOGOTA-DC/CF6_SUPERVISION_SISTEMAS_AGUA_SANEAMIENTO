@@ -46,8 +46,14 @@
 
           p El Reglamento técnico del sector de agua potable y saneamiento básico (RAS), en su Título B (2010), permite identificar los componentes que conforman el sistema de acueducto y la normatividad relacionada con el suministro de agua, estos son:
 
-      .row.bg-titulo1.align-items-center.p-1.mb-4
-        h3.texto-derecha.mb-4 Fuente de abastecimiento de agua
+      .row
+        .col-lg-7
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+            .list__txt
+              h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Fuente de abastecimiento de agua</span>
 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7
@@ -64,8 +70,15 @@
           figure
             img(src='@/assets/curso/temas/tema1/img4.svg', alt='alt')        
 
-      .row.bg-titulo1.align-items-center.p-1.mb-4
-        h3.texto-derecha.mb-4 Captación
+      .row
+        .col-lg-7
+          .list.mb-3(data-aos="fade-down")
+            .list__item
+              .list__item__icon
+                img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+            .list__txt
+              h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Captación</span>
+
 
       .row.justify-content-center.align-items-center.mb-4
         p Consiste en estructuras y/o dispositivos que permiten derivar de la fuente el caudal necesario. Los principales sistemas de captación son de aguas superficiales y aguas subterráneas; sin embargo, en los casos en donde la disponibilidad de las fuentes superficiales o subterráneas es limitada, es posible emplear la captación de aguas lluvias, captación por evaporación natural de agua de mar o captación por desalinización de agua de mar.
@@ -207,20 +220,30 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img9.svg')})`}"
           )
-          .bloque-texto-g__texto.p-4
-            .row.bg-titulo2.align-items-center.p-1.mb-4
-              h3.texto-derecha2.mb-4 Planta de potabilización
-              br
-              br
+          .bloque-texto-g__texto.p-3
+            .row
+              .col-lg-7
+                .list.mb-3(data-aos="fade-down")
+                  .list__item
+                    .list__item__icon
+                      img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')(style='width:60%')
+                  .list__txt
+                    h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Planta de potabilización</span>
+
               p Son el conjunto de estructuras y/o dispositivos que permiten adecuar el agua a los valores establecidos para su uso.
 
-
-    .row.bg-titulo1.align-items-center.p-1.mb-4
-      h3.texto-derecha.mb-4 Tanques de almacenamiento y compensación
+    .row
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Tanques de almacenamiento y compensación</span>
 
     .row.justify-content-center.align-items-center.mb-5
       .bg-fondo2.p-3
@@ -265,8 +288,14 @@
     .row.justify-content-center.align-items-center.mb-5
       p Existen diferentes tipos de agua según sus propiedades y su estado, esto es conocido como “Ciclo hidrológico o ciclo del agua”, los cuales según el RAS 2000 en su título B, define de la siguiente manera:
 
-    .row.bg-titulo1.align-items-center.p-1.mb-3
-      h3.texto-derecha.mb-4 Agua cruda  
+    .row
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Agua cruda  </span>
 
     .row.justify-content-center.align-items-center.mb-3
       p es el agua natural que no ha sido sometida a proceso de tratamiento para su potabilización.
@@ -375,8 +404,15 @@
                     span.texto-negro Link
                     i.fas.fa-link.texto-negro
 
-    .row.bg-titulo1.align-items-center.p-1.mb-5
-      h3.texto-derecha.mb-4 Agua potable
+    .row
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Agua potable</span>
+
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -547,8 +583,14 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .row.bg-titulo1.align-items-center.p-1.mb-5
-      h3.texto-derecha.mb-4 Características microbiológicas
+    .row
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Características microbiológicas</span>
 
     .row.justify-content-center.align-items-center.mb-5
       p En el agua también encontramos diferentes características microbiológicas, las cuales se describen en el video que se expone a continuación:
@@ -822,8 +864,14 @@
       .col-lg-8
         p #[b De acuerdo con el RAS 2000], título B, la captación de aguas superficiales a través de rejillas se utiliza especialmente en los ríos de zonas montañosas, los cuales están sujetos a grandes variaciones de caudal entre los períodos de estiaje y los períodos de crecientes máximas. El elemento base del diseño es la rejilla de captación, la cual debe ser proyectada con barras transversales o paralelas a la dirección de la corriente. Los otros tipos de toma también deben tener rejillas, con el fin de limitar la entrada de material flotante hacia las estructuras de captación.
 
-        .row.bg-titulo1.align-items-center.p-1.mb-3
-          h3.texto-derecha.mb-4 Elementos de diseño de las rejillas
+        .row
+          .col-lg-7
+            .list.mb-3(data-aos="fade-down")
+              .list__item
+                .list__item__icon
+                  img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+              .list__txt
+                h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Elementos de diseño de las rejillas</span>
 
         p En todo diseño de rejillas deben contemplarse los siguientes elementos: el caudal correspondiente al nivel de aguas mínimas en el río, el caudal requerido por la población que se va a abastecer y el nivel máximo alcanzado por las aguas durante las crecientes, con un período de retorno mínimo de 20 años.  Le invitamos a que revise este tema con mayor profundidad a continuación:
 
@@ -1053,7 +1101,12 @@
           .row.justify-content-center.align-items-center
             .col-lg-2
             .col-lg-10
-              p.mb-0 El proceso de sedimentación debe realizarse siempre que se tiene que producir coagulación de barrido o por adsorción, para poder remover la turbiedad. 
+              p El proceso de sedimentación debe realizarse siempre que se tiene que producir coagulación de barrido o por adsorción, para poder remover la turbiedad.
+
+              p.mb-0 En otros casos es opcional de acuerdo con los ensayos de laboratorio o planta piloto. 
+
+    .row.mb-3
+      p La unidad de sedimentación debe constar de: 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -1096,7 +1149,7 @@
           .tarjeta.tarjeta-gris2
             .p-3
               h3.text-center Filtración de tasa constante
-              p Es el tipo de control tradicional de los filtros rápidos convencionales. Debe emplearse un controlador variable que mantenga una pérdida de carga total constante al abrirse gradualmente la válvula, a medida que el lecho se colmata. 
+              p.text-center Es el tipo de control tradicional de los filtros rápidos convencionales. Debe emplearse un controlador variable que mantenga una pérdida de carga total constante al abrirse gradualmente la válvula, a medida que el lecho se colmata. 
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -1135,13 +1188,15 @@
     .row.justify-content-center.align-items-center.mb-5
       p.mb-4 #[b El RAS en su título C], también determina que el agua tratada a la salida de la planta no debe presentar propiedades corrosivas con respecto a las tuberías del sistema de distribución y del interior de las viviendas; el pH del agua debe ser próximo al de saturación. Si es necesario hacer uso de inhibidores que a la vez pueden ayudar a proteger la red de distribución de agua de la formación de biopelículas en su interior, éstos pueden utilizarse si son económicamente factibles.
 
+      .cajon.color-gris.p-4.mb-4
+        p.mb-0 Para proteger las tuberías de los agentes corrosivos presentes puede ajustarse la composición del agua, pH, concentración en iones de calcio y la alcalinidad al valor del equilibrio de saturación del carbonato de calcio para una temperatura del agua dada. El agua ideal debe tener una dureza total entre 40 mg/L y 60 mg/L de equivalente de carbonato de calcio (CaCO3), a un pH y alcalinidad que alcance las condiciones de saturación y una dureza de magnesio de no más que 36 mg/L para minimizar la formación de hidróxido de magnesio a temperaturas elevadas.
+
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img60.svg', alt='alt')
 
       .col-lg-8
-        .cajon.color-gris.p-4.mb-3
-          p.mb-0 Para proteger las tuberías de los agentes corrosivos presentes puede ajustarse la composición del agua, pH, concentración en iones de calcio y la alcalinidad al valor del equilibrio de saturación del carbonato de calcio para una temperatura del agua dada. El agua ideal debe tener una dureza total entre 40 mg/L y 60 mg/L de equivalente de carbonato de calcio (CaCO3), a un pH y alcalinidad que alcance las condiciones de saturación y una dureza de magnesio de no más que 36 mg/L para minimizar la formación de hidróxido de magnesio a temperaturas elevadas.
+        p Por medio del ablandamiento del agua debe reducirse el contenido de minerales disueltos, particularmente calcio y magnesio que son los mayores impulsores de la dureza del agua, otros iones que pueden producir dureza son el hierro, manganeso, estroncio, bario, zinc y aluminio, de cualquier modo, estos iones no están presentes en cantidades significantes. 
           
         p Los beneficios que deben obtenerse con el ablandamiento del agua son los siguientes: 
 
