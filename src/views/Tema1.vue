@@ -401,7 +401,7 @@
                   p.texto-blanco Para conocer e identificar todos los lineamientos sobre aguas crudas, lo invitamos a leer el documento Sistemas de acueducto el cual se encuentra en el material complementario.
                 .col-sm-auto
                   a.boton.color-primario(href="https://www.minvivienda.gov.co/sites/default/files/documentos/titulob-030714.pdf" target="_blank")
-                    span.texto-negro Link
+                    span.texto-negro <b>Link</b>
                     i.fas.fa-link.texto-negro
 
     .row
@@ -833,9 +833,9 @@
                   h3.texto-blanco.mb-3 Reglamento técnico del sector de agua y saneamiento Titulo A.
                   p.texto-blanco Con el propósito de conocer e identificar los componentes los niveles de complejidad te invitamos a leer el documento  Aspectos generales de los sistemas de agua potable y saneamiento básico, que se encuentra en el material complementario.
                 .col-sm-auto
-                  a.boton.color-primario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span.texto-negro Descargar
-                    i.fas.fa-file-download.texto-negro
+                  a.boton.color-primario(href="https://minvivienda.gov.co/sites/default/files/documentos/010710_ras_titulo_a_.pdf " target="_blank")
+                    span.texto-negro <b>Link</b>
+                    i.fas.fa-link.texto-negro
 
     .row.justify-content-center.align-items-center.mb-5
       p #[b De acuerdo con el RAS 2000, título C], los procesos que conforman un sistema convencional de potabilización del agua son: captación del agua, remoción de material flotante y sólidos gruesos mediante rejillas, pretratamiento, coagulación, floculación, sedimentación, filtración, desinfección, estabilización y distribución del agua al sistema de redes de acueducto (p.75). 
@@ -1006,7 +1006,7 @@
                   h3.texto-blanco.mb-3 Reglamento técnico del sector de agua y saneamiento. Titulo C.
                   p.texto-blanco Para identificar todas las condiciones de operación de la coagulación, lo invitamos a leer el documento Potabilización de agua el cual se encuentra en el material complementario,  se sugiere su descarga.
                 .col-sm-auto
-                  a.boton.color-primario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-primario(href="https://www.catorce6.com/images/legal/Titulo_C_Potabilizacion.pdf" target="_blank")
                     span.texto-negro Descargar
                     i.fas.fa-file-download.texto-negro
 
