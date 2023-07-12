@@ -124,7 +124,7 @@
             .col-md-6.mb-4.mb-md-0
               p.text-small La medición continua de la turbiedad por la falta de transparencia del agua debido a la presencia de partículas extrañas debe realizarse por medio de analizadores amperimétricos de turbiedad tal como el equipo o Unidad Nefelométrica de Turbiedad (UNT); otros son los analizadores ópticos que deben usarse cuando se tienen concentraciones medias de sólidos. Debe tenerse en cuenta que la unidad de medición actual es la UNT. Cuando se trata de evaluar pequeños valores de turbiedad es preferible el uso de turbidímetros de diseminación.
 
-          .row(numero="4" titulo="Cloro residual:")
+          .row(numero="4" titulo="Aluminio residual:")
             .col-md-3
               figure
                 img(src='@/assets/curso/temas/tema2/img12.png', alt='Texto que describa la imagen')
