@@ -754,7 +754,7 @@
 
 
     .row.bg-titulo3.align-items-center.p-1.mb-4
-      h3.text-white.my-3 Niveles de complejidad del sistema
+      h3.text-white.my-3.texto-derecha Niveles de complejidad del sistema
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -854,7 +854,7 @@
           figcaption.mt-3 Fuente: Ministerio de Desarrollo Económico. (2010). Reglamento técnico del sector de Agua potable y Saneamiento básico [RAS]. título
 
     .row.bg-titulo4.align-items-center.p-1.mb-4
-      h3.text-white.my-3 Rejillas
+      h3.text-white.my-3.texto-derecha Rejillas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-4
@@ -907,7 +907,7 @@
 
 
     .row.bg-titulo4.align-items-center.p-1.mb-4
-      h3.text-white.my-3 Desarenador
+      h3.text-white.my-3.texto-derecha Desarenador
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-4
@@ -955,7 +955,7 @@
           p Debe ubicarse una caja de inspección en la tubería de limpieza adyacente o lo más cerca posible de la descarga de arenas (p.86).
 
     .row.bg-titulo4.align-items-center.p-1.mb-4
-      h3.text-white.my-3 Coagulación
+      h3.text-white.my-3.texto-derecha Coagulación
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -1011,7 +1011,7 @@
                     i.fas.fa-file-download.texto-negro
 
     .row.bg-titulo4.align-items-center.p-1.mb-4
-      h3.text-white.my-3 Flocuación
+      h3.text-white.my-3.texto-derecha Flocuación
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -1089,7 +1089,7 @@
                 img(src='@/assets/curso/temas/tema1/img51.svg', alt='alt')
 
     .row.bg-titulo4.align-items-center.p-1.mb-5
-      h3.text-white.my-3 Sedimentador
+      h3.text-white.my-3.texto-derecha Sedimentador
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-2
@@ -1126,7 +1126,7 @@
           img(src='@/assets/curso/temas/tema1/img54.svg', alt='alt')       
 
     .row.bg-titulo4.align-items-center.p-1.mb-5
-      h3.text-white.my-3 Filtración
+      h3.text-white.my-3.texto-derecha Filtración
 
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4.mb-4
@@ -1170,7 +1170,7 @@
 
 
     .row.bg-titulo4.align-items-center.p-1.mb-5
-      h3.text-white.my-3 Desinfección
+      h3.text-white.my-3.texto-derecha Desinfección
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-4
@@ -1185,7 +1185,7 @@
 
 
     .row.bg-titulo3.align-items-center.p-1.mb-5
-      h3.text-white.my-3 Estabilización y ablandamiento
+      h3.text-white.my-3.texto-derecha Estabilización y ablandamiento
 
     .row.justify-content-center.align-items-center.mb-5
       p.mb-4 #[b El RAS en su título C], también determina que el agua tratada a la salida de la planta no debe presentar propiedades corrosivas con respecto a las tuberías del sistema de distribución y del interior de las viviendas; el pH del agua debe ser próximo al de saturación. Si es necesario hacer uso de inhibidores que a la vez pueden ayudar a proteger la red de distribución de agua de la formación de biopelículas en su interior, éstos pueden utilizarse si son económicamente factibles.
