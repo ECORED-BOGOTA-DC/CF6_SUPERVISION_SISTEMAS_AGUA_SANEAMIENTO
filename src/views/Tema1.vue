@@ -11,7 +11,7 @@
       .col-lg-11
         .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-4.mb-5
           .bloque-texto-g1__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.svg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.png')})`}"
           )
           .bloque-texto-g1__texto.p-3
             p.mb-0 Una vez el agua es captada se requiere, en función de sus características, someterla a una serie de operaciones y procesos unitarios que tienen como objetivo permitir que logre las condiciones necesarias para el uso que se tiene definido; particularmente en el caso de agua para consumo humano, se debe cumplir con las normas que reglamentan el suministro de agua para esta actividad. Así mismo, el proceso de potabilización debe ser complementado con todo un sistema diseñado para su conducción, almacenamiento y distribución, que a su vez debe ser monitoreado a lo largo de este para verificar sus condiciones.
@@ -20,7 +20,7 @@
           .row.justify-content-center.align-items-center
             .col-4.col-lg-1
               figure
-                img(src='@/assets/curso/temas/tema1/img2.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imágen decorativa')
 
             .col-lg-11
               p.mb-0 La potabilización tiene en cuenta diferentes operaciones unitarias que permiten obtener agua potable a partir de la captación de agua cruda.
@@ -39,7 +39,7 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-3
           figure
-            img(src='@/assets/curso/temas/tema1/img3.svg', alt='alt')
+            img(src='@/assets/curso/temas/tema1/img3.png', alt='Imágen decorativa')
 
         .col-lg-9
           p En términos generales, es posible definir el sistema de acueducto como el conjunto de estructuras que permiten la captación de agua, transporte y distribución a los usuarios, cumpliendo con unas características mínimas para su consumo.
@@ -51,7 +51,7 @@
           .list.mb-3(data-aos="fade-down")
             .list__item
               .list__item__icon
-                img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+                img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
             .list__txt
               h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Fuente de abastecimiento de agua</span>
 
@@ -68,14 +68,14 @@
 
         .col-lg-5
           figure
-            img(src='@/assets/curso/temas/tema1/img4.svg', alt='alt')        
+            img(src='@/assets/curso/temas/tema1/img4.svg', alt='Imágen decorativa')        
 
       .row
         .col-lg-7
           .list.mb-3(data-aos="fade-down")
             .list__item
               .list__item__icon
-                img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+                img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
             .list__txt
               h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Captación</span>
 
@@ -86,7 +86,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5
         figure
-          img(src='@/assets/curso/temas/tema1/img5.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img5.png', alt='Imágen decorativa')
 
       .col-lg-5
         .tarjeta.tarjeta--gris.p-4
@@ -95,56 +95,56 @@
           .list.mb-2(data-aos="fade-down")
             .list__item
               .list__item__icon1
-                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
             .list__txt
               p.mb-0.tv.margin-icon Toma lateral.
                 
           .list.mb-2(data-aos="fade-down")
             .list__item
               .list__item__icon1
-                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
             .list__txt
               p.mb-0.tv.margin-icon Toma sumergida.
 
           .list.mb-2(data-aos="fade-down")
             .list__item
               .list__item__icon1
-                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
             .list__txt
               p.mb-0.tv.margin-icon Captación flotante con elevación mecánica.
 
           .list.mb-2(data-aos="fade-down")
             .list__item
               .list__item__icon1
-                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
             .list__txt
               p.mb-0.tv.margin-icon Captación mixta.
 
           .list.mb-2(data-aos="fade-down")
             .list__item
               .list__item__icon1
-                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
             .list__txt
               p.mb-0.tv.margin-icon Toma de rejilla.
 
           .list.mb-2(data-aos="fade-down")
             .list__item
               .list__item__icon1
-                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
             .list__txt
               p.mb-0.tv.margin-icon Presa de derivación.
 
           .list.mb-2(data-aos="fade-down")
             .list__item
               .list__item__icon1
-                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
             .list__txt
               p.mb-0.tv.margin-icon Cámara de toma directa.
 
           .list.mb-2(data-aos="fade-down")
             .list__item
               .list__item__icon1
-                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
             .list__txt
               p.mb-0.tv.margin-icon Muelle de toma.                
 
@@ -158,7 +158,7 @@
               .list.mb-2(data-aos="fade-down")
                 .list__item
                   .list__item__icon1
-                    img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                    img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
                 .list__txt
                   p.mb-0.tv.margin-icon Pozos profundos.
 
@@ -166,7 +166,7 @@
               .list.mb-2(data-aos="fade-down")
                 .list__item
                   .list__item__icon1
-                    img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                    img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
                 .list__txt
                   p.mb-0.tv.margin-icon Pozos excavados.
 
@@ -174,7 +174,7 @@
               .list.mb-2(data-aos="fade-down")
                 .list__item
                   .list__item__icon1
-                    img(src='@/assets/curso/temas/tema1/icono1.svg', alt='')
+                    img(src='@/assets/curso/temas/tema1/icono1.svg', alt='Imágen decorativa')
                 .list__txt
                   p.mb-0.tv.margin-icon Captación de manantiales.
 
@@ -184,7 +184,7 @@
           .row.justify-content-center.align-items-center
             .col-4.col-lg-1
               figure
-                img(src='@/assets/curso/temas/tema1/img2.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imágen decorativa')
 
             .col-lg-11
               p.mb-0 Adicional a los tipos de captación de agua se encuentras las llamadas líneas de aducción y líneas de conducción que las encuentra a continuación:
@@ -193,7 +193,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img6.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema1/img6.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--gris
             .p-2
               h4 Líneas de aducción
@@ -201,7 +201,7 @@
 
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img7.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema1/img7.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--gris
             .p-2
               h4 Líneas de conducción
@@ -209,7 +209,7 @@
 
       .col-lg-6
         figure
-          img(src='@/assets/curso/temas/tema1/img8.svg', alt='alt')      
+          img(src='@/assets/curso/temas/tema1/img8.png', alt='Imágen decorativa')      
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -230,7 +230,7 @@
                 .list.mb-3(data-aos="fade-down")
                   .list__item
                     .list__item__icon
-                      img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')(style='width:60%')
+                      img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')(style='width:60%')
                   .list__txt
                     h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Planta de potabilización</span>
 
@@ -241,7 +241,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
-              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Tanques de almacenamiento y compensación</span>
 
@@ -256,7 +256,7 @@
 
           .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema1/img10.svg', alt='alt')          
+              img(src='@/assets/curso/temas/tema1/img10.svg', alt='Imágen decorativa')          
 
 
     .row.justify-content-center.mb-5
@@ -264,7 +264,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img11.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema1/img11.png", alt="Imágen decorativa")
           .crd_hover_txt--body.texto-blanco
             h4.mb-3.mb-lg-5.text-center Redes de distribución
             p.my-0.my-lg-5.text-center.text-small Las líneas de aducción del acueducto son los conductos destinados a transportar por gravedad o por bombeo las aguas crudas desde los sitios de captación hasta las plantas de tratamiento, prestando excepcionalmente servicio de suministro de agua cruda a lo largo de su longitud. Las líneas de conducción son aquellas destinadas al transporte de agua tratada desde la planta de tratamiento hasta los tanques de almacenamiento o hasta la red de distribución, generalmente sin entrega de agua en ruta.
@@ -273,7 +273,7 @@
         .crd_hover_txt2(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema1/img12.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema1/img12.png", alt="Imágen decorativa")
           .crd_hover_txt--body.texto-blanco
             h4.mb-4.text-center Estación de bombeo
             p.my-5.text-center.text-small Es un conjunto de estructuras y equipos empleados cuando se requiera elevar el nivel de la línea piezométrica para vencer una diferencia de altura topográfica, las pérdidas por fricción y las pérdidas menores, siempre que las alternativas de ampliación de estaciones existentes y el aprovechamiento de la gravedad no resulten factibles.
@@ -293,7 +293,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
-              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Agua cruda  </span>
 
@@ -305,7 +305,7 @@
 
       .col-lg-4.mb-3
         figure
-          img(src="@/assets/curso/temas/tema1/img13.svg", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img13.svg", alt="Imágen decorativa")
 
       .col-lg-8
         TabsA.color-pestana-azul
@@ -333,7 +333,7 @@
 
       .col-lg-5
         figure
-          img(src="@/assets/curso/temas/tema1/img14.svg", alt="alt")      
+          img(src="@/assets/curso/temas/tema1/img14.svg", alt="Imágen decorativa")      
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -342,7 +342,7 @@
           .row.justify-content-center.align-items-center.my-lg-4
             .col-md-6.mb-3
               figure
-                img(src="@/assets/curso/temas/tema1/img15.svg", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img15.png", alt="Imágen decorativa")
 
             .col-md-6.mb-4.mb-md-0
               p En las captaciones hechas en ríos, las aguas tienden a ser turbias, algunas veces coloreadas y en la gran mayoría de los casos reciben la descarga de aguas residuales, tanto domésticas como industriales que se han vertido aguas arriba. Las fuentes que toman aguas de lagos son más claras que las aguas de ríos, pero también están sujetas a la contaminación.
@@ -353,12 +353,12 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/img16.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img16.svg', alt='Imágen decorativa')
 
           .row.justify-content-center.align-items-center.my-lg-4
             .col-md-6.mb-3
               figure
-                img(src="@/assets/curso/temas/tema1/img17.svg", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img17.png", alt="Imágen decorativa")
 
             .col-md-6.mb-4.mb-md-0
               p Las fuentes de agua localizadas en ríos pequeños y en quebradas de montaña son limpias y puras; en estado natural son apropiadas para el consumo humano. No obstante, estas aguas están expuestas a contaminación por acción eventual. 
@@ -369,12 +369,12 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/img18.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img18.png', alt='Imágen decorativa')
 
           .row.justify-content-center.align-items-center.my-lg-4
             .col-md-6.mb-3
               figure
-                img(src="@/assets/curso/temas/tema1/img19.svg", alt="alt")
+                img(src="@/assets/curso/temas/tema1/img19.svg", alt="Imágen decorativa")
 
             .col-md-6.mb-4.mb-md-0
               p En todos aquellos casos en que se proyecten lagos artificiales mediante la construcción de embalses, deben tenerse en cuenta las condiciones futuras de la calidad del agua almacenada. 
@@ -385,7 +385,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema1/img20.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img20.svg', alt='Imágen decorativa')
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
@@ -409,7 +409,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
-              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Agua potable</span>
 
@@ -423,7 +423,7 @@
 
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema1/img22.svg', alt='alt')      
+          img(src='@/assets/curso/temas/tema1/img22.png', alt='Imágen decorativa')      
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -588,7 +588,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
-              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Características microbiológicas</span>
 
@@ -620,7 +620,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-2.col-lg-1
           figure
-            img(src='@/assets/curso/temas/tema1/img25.svg', alt='alt') 
+            img(src='@/assets/curso/temas/tema1/img25.svg', alt='Imágen decorativa') 
 
         .col-10.col-lg-11
           p #[b El Decreto 1575 de 2007], establece el Sistema para la Protección y Control de la Calidad del Agua para Consumo Humano con los artículos que se exponen a continuación: 
@@ -639,7 +639,7 @@
             
               .col-md-6
                 figure
-                  img(src='@/assets/curso/temas/tema1/img26.svg', alt='alt')
+                  img(src='@/assets/curso/temas/tema1/img26.png', alt='Imágen decorativa')
 
           .py-3.py-md-4(titulo="Artículo 4. Responsables.")
             .row
@@ -650,7 +650,7 @@
 
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src='@/assets/curso/temas/tema1/img27.svg', alt='alt')
+                  img(src='@/assets/curso/temas/tema1/img27.png', alt='Imágen decorativa')
 
           .py-3.py-md-4(titulo="Artículo 9. Responsabilidades")
             .row
@@ -661,7 +661,7 @@
 
               .col-md-6.mb-4.mb-md-0
                 figure.mb-3
-                  img(src='@/assets/curso/temas/tema1/img28.svg', alt='alt')
+                  img(src='@/assets/curso/temas/tema1/img28.png', alt='Imágen decorativa')
 
               p Lavar y desinfectar antes de la puesta en funcionamiento y como mínimo dos (2) veces al año, los tanques de almacenamiento de aguas tratadas. 
 
@@ -675,7 +675,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-2.col-lg-1
         figure
-          img(src='@/assets/curso/temas/tema1/img25.svg', alt='alt') 
+          img(src='@/assets/curso/temas/tema1/img25.svg', alt='Imágen decorativa') 
 
       .col-10.col-lg-11
         p #[b Resolución 2115 de 2007:] por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano, veamos a mayor detalle lo que indica esta resolución:
@@ -687,7 +687,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-10.mb-3
                 figure
-                  img(src='@/assets/curso/temas/tema1/img33.svg', alt='alt')
+                  img(src='@/assets/curso/temas/tema1/img33.svg', alt='Imágen decorativa')
 
               p.text-center Características físicas y químicas del agua para consumo humano (Valores máximos aceptables). 
 
@@ -706,7 +706,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-2.col-lg-1
           figure
-            img(src='@/assets/curso/temas/tema1/img25.svg', alt='alt') 
+            img(src='@/assets/curso/temas/tema1/img25.svg', alt='Imágen decorativa') 
 
         .col-10.col-lg-11
           p #[b Resolución 811 de 2008:] por medio de la cual se definen los lineamientos a partir de los cuales la autoridad sanitaria y las personas prestadoras, concertadamente definirán en su área de influencia los lugares y puntos de muestreo para el control y la vigilancia de la calidad del agua para consumo humano en la red de distribución, Revisemos lo que describe esta resolución:
@@ -715,7 +715,7 @@
         .col-lg-4
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/temas/tema1/img30.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema1/img30.svg' alt='Imágen decorativa')
             .tarjeta.tarjeta-blanca
               .p-3
                 h4 Artículo 2.
@@ -724,7 +724,7 @@
         .col-lg-4
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/temas/tema1/img31.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema1/img31.svg' alt='Imágen decorativa')
             .tarjeta.tarjeta-blanca
               .p-3
                 h4 Artículo 3.
@@ -733,7 +733,7 @@
         .col-lg-4
           .tarjeta-avatar-b.mb-5
             .tarjeta-avatar-b__img
-              img(src='@/assets/curso/temas/tema1/img32.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema1/img32.svg' alt='Imágen decorativa')
             .tarjeta.tarjeta-blanca
               .p-3
                 h4 Artículo 4.
@@ -747,7 +747,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       figure
-        img(src='@/assets/curso/temas/tema1/img34.png', alt='alt')
+        img(src='@/assets/curso/temas/tema1/img34.png', alt='Imágen decorativa')
       .col-lg-11
         .bg-fondo3.p-4
           p Los procesos y operaciones unitarias son etapas que incluyen cambios físicos o químicos para realizar el tratamiento del agua cruda, y los procesos que se seleccionan dependen del nivel de complejidad del sistema.
@@ -760,7 +760,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
         figure
-          img(src='@/assets/curso/temas/tema1/img35.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img35.svg', alt='Imágen decorativa')
 
       .col-lg-7
         .cajon.color-gris.p-4.mb-3
@@ -771,19 +771,19 @@
         .row.justify-content-center.align-items-center
           .col-5.col-lg-2
             figure
-              img(src='@/assets/curso/temas/tema1/img36.svg', alt='alt').img36-tm1
+              img(src='@/assets/curso/temas/tema1/img36.svg', alt='Muestra los niveles de complejidad, bajo, medio, medio alto y alto, con colores.').img36-tm1
 
           .col-9.col-lg-3
             figure
-              img(src='@/assets/curso/temas/tema1/img37.svg', alt='alt').img37-tm1  
+              img(src='@/assets/curso/temas/tema1/img37.svg', alt='Muestra los niveles de complejidad, bajo, medio, medio alto y alto, con colores.').img37-tm1  
 
           .col-9.col-lg-3
             figure
-              img(src='@/assets/curso/temas/tema1/img38.svg', alt='alt').img38-tm1
+              img(src='@/assets/curso/temas/tema1/img38.svg', alt='Muestra los niveles de complejidad, bajo, medio, medio alto y alto, con colores.').img38-tm1
 
           .col-9.col-lg-3
             figure
-              img(src='@/assets/curso/temas/tema1/img39.svg', alt='alt').img39-tm1
+              img(src='@/assets/curso/temas/tema1/img39.svg', alt='Muestra los niveles de complejidad, bajo, medio, medio alto y alto, con colores.').img39-tm1
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -849,7 +849,7 @@
           i.mb-0 Sistema convencional de tratamiento de agua potable.
 
         figure
-          img(src='@/assets/curso/temas/tema1/img40.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img40.svg', alt='Muestra un sistema convencional iniciando por fuente, rejillas, pretratamiento, coagulación, floculación, sedimentación, filtración, desinfección, estabilización y distribución.')
           
           figcaption.mt-3 Fuente: Ministerio de Desarrollo Económico. (2010). Reglamento técnico del sector de Agua potable y Saneamiento básico [RAS]. título
 
@@ -859,7 +859,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img41.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img41.svg', alt='Imágen decorativa')
 
       .col-lg-8
         p #[b De acuerdo con el RAS 2000], título B, la captación de aguas superficiales a través de rejillas se utiliza especialmente en los ríos de zonas montañosas, los cuales están sujetos a grandes variaciones de caudal entre los períodos de estiaje y los períodos de crecientes máximas. El elemento base del diseño es la rejilla de captación, la cual debe ser proyectada con barras transversales o paralelas a la dirección de la corriente. Los otros tipos de toma también deben tener rejillas, con el fin de limitar la entrada de material flotante hacia las estructuras de captación.
@@ -869,7 +869,7 @@
             .list.mb-3(data-aos="fade-down")
               .list__item
                 .list__item__icon
-                  img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+                  img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
               .list__txt
                 h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Elementos de diseño de las rejillas</span>
 
@@ -882,7 +882,7 @@
           .row.justify-content-center.align-items-center.mb-4
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema1/img42.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img42.svg', alt='Imágen decorativa')
             
           h2.text-center.mt-5 Inclinación de las rejillas:
           p.text-center.mb-0 En el caso de rejillas utilizadas para la captación de aguas superficiales en cursos de agua de zonas montañosas, la rejilla debe estar inclinada entre 10% y 20% hacia la dirección aguas abajo. En el caso de otros tipos de estructuras de captación, las rejillas deben tener una inclinación de 70° a 80° con respecto a la horizontal.
@@ -891,7 +891,7 @@
           .row.justify-content-center.align-items-center.mb-4
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema1/img43.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img43.svg', alt='Imágen decorativa')
             
           h2.text-center.mt-5 Separación entre barrotes
           p.text-center.mb-0 Separación entre barrotes: la separación entre barrotes, para el caso de estructuras de captación en ríos con gravas gruesas, debe ser entre 75 mm y 150 mm. Para ríos caracterizados por el transporte de gravas finas, la separación entre barrotes debe ser entre 20 mm y 40 mm.
@@ -900,7 +900,7 @@
           .row.justify-content-center.align-items-center.mb-4
             .col-6
               figure
-                img(src='@/assets/curso/temas/tema1/img44.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img44.svg', alt='Imágen decorativa')
             
           h2.text-center.mt-5 Ancho de la rejilla 
           p.text-center.mb-0 Ancho de la rejilla: el ancho de la rejilla debe depender del ancho total de la estructura de captación y el caudal mínimo de la fuente (p.71).
@@ -912,7 +912,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img45.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img45.svg', alt='Imágen decorativa')
 
       .col-lg-8
         p #[b De acuerdo con el RAS 2000, título B], es un componente destinado a la remoción de las arenas y sólidos que están en suspensión en el agua, mediante un proceso de sedimentación. Este debe instalarse en el primer tramo de la aducción, lo más cerca posible a la captación de agua, de acuerdo con las condiciones topográficas y geológicas de la zona.
@@ -925,7 +925,7 @@
       ImagenInfografica.color-primario
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/tema1/img46.svg', alt='alt')
+            img(src='@/assets/curso/temas/tema1/img46.svg', alt='Imágen decorativa')
 
         .tarjeta.color-acento-contenido.p-3(x="3.9%" y="37%" numero="+")
           p Deben proyectarse los dispositivos de entrada y salida de modo que aseguren una buena distribución transversal del flujo y se reduzca a un mínimo la posibilidad de corto circuito dentro del desarenador. La velocidad de paso en los orificios de la pantalla de entrada será inferior a 0.10 m/s. 
@@ -967,7 +967,7 @@
 
       .col-lg-3
         figure
-          img(src='@/assets/curso/temas/tema1/img47.svg', alt='alt')        
+          img(src='@/assets/curso/temas/tema1/img47.svg', alt='Imágen decorativa')        
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -977,7 +977,7 @@
 
       .col-lg-3
         figure
-          img(src='@/assets/curso/temas/tema1/img48.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img48.svg', alt='Imágen decorativa')
 
       .col-lg-9
         ul.lista-ul--color.lista-ul--separador.fa-ul2.mb-3
@@ -1050,7 +1050,7 @@
 
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema1/img49.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img49.png', alt='Imágen decorativa')
 
         .py-3.py-md-4(titulo="Floculadores mecánicos")
           .row.justify-content-center.align-items-center
@@ -1072,7 +1072,7 @@
 
             .col-md-4.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema1/img50.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img50.png', alt='Imágen decorativa')
 
         .py-3.py-md-4(titulo="Floculadores hidromecánicos")
           .row.justify-content-center.align-items-center
@@ -1086,7 +1086,7 @@
 
             .col-md-4.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema1/img51.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema1/img51.svg', alt='Imágen decorativa')
 
     .row.bg-titulo4.align-items-center.p-1.mb-5
       h3.text-white.my-3.texto-derecha Sedimentador
@@ -1094,7 +1094,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-2
         figure
-          img(src='@/assets/curso/temas/tema1/img52.svg', alt='alt').img-52-tm1
+          img(src='@/assets/curso/temas/tema1/img52.png', alt='alt').img-52-tm1
 
       .col-lg-10
         .tarjeta-gris.p-4
@@ -1111,7 +1111,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         figure
-          img(src='@/assets/curso/temas/tema1/img53.svg', alt='alt')      
+          img(src='@/assets/curso/temas/tema1/img53.svg', alt='Muestra cuatro zonas:<br>1. Zona de entrada.<br>2. Zona de sedimentación.<br>3. Zona de recolección de lodos.<br>4. Zona de salida.')      
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -1123,7 +1123,7 @@
 
       .col-10.col-lg-3
         figure
-          img(src='@/assets/curso/temas/tema1/img54.svg', alt='alt')       
+          img(src='@/assets/curso/temas/tema1/img54.svg', alt='Imágen decorativa')       
 
     .row.bg-titulo4.align-items-center.p-1.mb-5
       h3.text-white.my-3.texto-derecha Filtración
@@ -1131,7 +1131,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4.mb-4
         figure
-          img(src='@/assets/curso/temas/tema1/img55.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img55.svg', alt='Imágen decorativa')
 
       .col-lg-8 
         p #[b El RAS (2000), en su Título C,] establece que en el proceso convencional la filtración puede ser rápida o lenta. La filtración rápida se divide en filtración ascendente o descendente y puede filtrarse por gravedad o por presión. El lavado del medio filtrante puede ser intermitente o continuo. También puede emplearse la filtración lenta sola o con diversas etapas de prefiltración.
@@ -1147,7 +1147,7 @@
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/tema1/img56.svg", alt="alt").img90.m-auto
+                img(src="@/assets/curso/temas/tema1/img56.svg", alt="Imágen decorativa").img90.m-auto
             h3.text-center Pérdida de carga variable
             p.text-center El afluente debe entrar al filtro por debajo del nivel de la canaleta de lavado. Debe contar con un vertedero de control, una válvula que evite el vaciado del filtro al comienzo de las carreras.
 
@@ -1155,7 +1155,7 @@
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/tema1/img57.svg", alt="alt").img90.m-auto
+                img(src="@/assets/curso/temas/tema1/img57.svg", alt="Imágen decorativa").img90.m-auto
             h3.text-center Filtración afluente y nivel variable 
             p.text-center El caudal debe distribuirse por igual mediante un vertedero de entrada sobre cada filtro, el vertedero de control debe quedar en un nivel superior al nivel máximo, la unidad debe ser profunda para permitir una variación del nivel, debe introducirse un sistema de disipación de energía.
 
@@ -1163,7 +1163,7 @@
           .crd.crd--grayGrad(data-aos="flip-left")
             .bottomCircle.mb-5
               figure
-                img(src="@/assets/curso/temas/tema1/img58.svg", alt="alt").img90.m-auto
+                img(src="@/assets/curso/temas/tema1/img58.svg", alt="Imágen decorativa").img90.m-auto
             h3.text-center Filtración de tasa constante
             p.text-center Es el tipo de control tradicional de los filtros rápidos convencionales. Debe emplearse un controlador variable que mantenga una pérdida de carga total constante al abrirse gradualmente la válvula, a medida que el lecho se colmata. 
 
@@ -1181,7 +1181,7 @@
 
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema1/img59.svg', alt='alt')      
+          img(src='@/assets/curso/temas/tema1/img59.png', alt='Imágen decorativa')      
 
 
     .row.bg-titulo3.align-items-center.p-1.mb-5
@@ -1194,7 +1194,7 @@
 
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema1/img60.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema1/img60.svg', alt='Imágen decorativa')
 
       .col-lg-8
         .cajon.color-gris.p-4.mb-3 
