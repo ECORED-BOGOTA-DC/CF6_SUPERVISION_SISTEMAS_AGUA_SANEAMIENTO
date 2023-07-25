@@ -192,7 +192,7 @@ export default {
     {
       tema: '1.4 Normatividad para agua potable: conceptos, aplicación.',
       referencia:
-        'Ministerio de Vivienda. 2010. Reglamento técnico del sector de agua y saneamiento. Titulo B. Sistemas de acueducto.',
+        'Ministerio de Vivienda. 2010. Reglamento técnico del sector de agua y saneamiento. Título B. Sistemas de acueducto.',
       tipo: 'Libro',
       link:
         'https://www.minvivienda.gov.co/sites/default/files/documentos/titulob-030714.pdf',
@@ -200,7 +200,7 @@ export default {
     {
       tema: '1.4 Normatividad para agua potable: conceptos, aplicación.',
       referencia:
-        'Ministerio de Vivienda. 2010. Reglamento técnico del sector de agua y saneamiento. Titulo C. Potabilización de agua.',
+        'Ministerio de Vivienda. 2010. Reglamento técnico del sector de agua y saneamiento. Título C. Potabilización de agua.',
       tipo: 'Libro',
       link: 'https://www.catorce6.com/images/legal/Titulo_C_Potabilizacion.pdf',
     },
@@ -299,15 +299,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Líder del equipo',
+          nombre: 'Claudia Patricía Aristizábal Gutiérres',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -315,10 +315,72 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Xiomara Becerra Aldana',
+          cargo: 'Instructora Ambiental',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Lubin Andrés Hernández Sanabria',
+          cargo: 'Instructor Ambiental',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jesús Ricardo Arias Munevar',
+          cargo: 'Instructor Ambiental',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Javier Ricardo Luna Pineda',
+          cargo: 'Diseñador Instruccional',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Evaluador Instruccional',
+          centro: 'Centro de diseño y metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Sergio Arturo Medina Castillo',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisión Metodológica y Pedagógica',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Rafael Neftali Lizcano Reyes',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
+        },
+        {
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Adecuador Instruccional',
+          centro:
+            'Centro de gestión de mercados, Logística y Tecnologías de la información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor metodológico',
+          centro:
+            'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Guadrón',
+          cargo: 'Responsable Línea de Producción Distrito Capital.',
+          centro:
+            'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },
@@ -326,22 +388,40 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
+          nombre: 'Jesús Antonio Vecino Valero',
+          cargo: 'Diseño web-2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Manuel Felipe Echavarria Orozco',
+          cargo: 'Desarrollador Fullstack - 2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Jhon Jairo Urueta Álvarez',
+          cargo: 'Desarrollo Fullstack-2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -349,22 +429,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validadora de recursos educativos',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Validación de contenidos accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validadora de recursos educativos',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

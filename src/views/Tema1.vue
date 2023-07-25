@@ -44,7 +44,7 @@
         .col-lg-9
           p En términos generales, es posible definir el sistema de acueducto como el conjunto de estructuras que permiten la captación de agua, transporte y distribución a los usuarios, cumpliendo con unas características mínimas para su consumo.
 
-          p El Reglamento técnico del sector de agua potable y saneamiento básico (RAS), en su Título B (2010), permite identificar los componentes que conforman el sistema de acueducto y la normatividad relacionada con el suministro de agua, estos son:
+          p El Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico (RAS), en su Título B (2010), permite identificar los componentes que conforman el sistema de acueducto y la normatividad relacionada con el suministro de agua, estos son:
 
       .row
         .col-lg-7
@@ -187,7 +187,7 @@
                 img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imágen decorativa')
 
             .col-lg-11
-              p.mb-0 Adicional a los tipos de captación de agua se encuentras las llamadas líneas de aducción y líneas de conducción que las encuentra a continuación:
+              p.mb-0 Adicional a los tipos de captación de agua se encuentran las llamadas líneas de aducción y líneas de conducción que las encuentra a continuación:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6
@@ -234,7 +234,7 @@
                   .list__txt
                     h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Planta de potabilización</span>
 
-              p Son el conjunto de estructuras y/o dispositivos que permiten adecuar el agua a los valores establecidos para su uso.
+            p Son el conjunto de estructuras y/o dispositivos que permiten adecuar el agua a los valores establecidos para su uso.
 
     .row
       .col-lg-7
@@ -298,7 +298,7 @@
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Agua cruda  </span>
 
     .row.justify-content-center.align-items-center.mb-3
-      p es el agua natural que no ha sido sometida a proceso de tratamiento para su potabilización.
+      p Es el agua natural que no ha sido sometida a proceso de tratamiento para su potabilización.
 
     .row.justify-content-center.mb-5
       p #[b El RAS 2000 en su título B], establece que durante la operación del pozo debe realizarse un muestreo de la calidad del agua cruda según las siguientes disposiciones:
@@ -310,15 +310,12 @@
       .col-lg-8
         TabsA.color-pestana-azul
           .tarjeta.tarjeta--gris.p-4(titulo="Nivel de complejidad bajo")
-            h4 Nivel de complejidad bajo
             p Para el nivel de complejidad del sistema bajo debe realizarse un muestreo como mínimo cada mes, el cual debe incluir: coliformes totales y fecales y demanda bioquímica de oxígeno (DBO).
 
           .tarjeta.tarjeta--gris.p-4(titulo="Nivel de complejidad medio")
-            h4 Nivel de complejidad medio
             p Para el nivel de complejidad del sistema medio debe realizarse un muestreo como mínimo cada semana, el cual debe incluir: coliformes totales y fecales, demanda bioquímica de oxígeno, sólidos suspendidos totales, pH, alcalinidad y dureza.
 
           .tarjeta.tarjeta--gris.p-4(titulo="Nivel de complejidad alto y medio alto")
-            h4 Nivel de complejidad alto y medio alto
             p Para los niveles de complejidad del sistema alto y medio alto debe realizarse un muestreo diario, el cual debe incluir, además de lo exigido en los otros niveles, fluoruros, cloruros, hierro, alcalinidad total y dureza.
 
 
@@ -397,12 +394,12 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.texto-blanco.mb-3 Reglamento técnico del sector de agua y saneamiento. Título B.
-                  p.texto-blanco Para conocer e identificar todos los lineamientos sobre aguas crudas, lo invitamos a leer el documento Sistemas de acueducto el cual se encuentra en el material complementario.
+                  h3.texto-blanco.mb-3 Reglamento técnico del sector de agua y saneamiento. Título B
+                  p.texto-blanco Para conocer e identificar todos los lineamientos sobre aguas crudas, lo invitamos a leer el documento Sistemas de acueducto, el cual se encuentra en el material complementario.
                 .col-sm-auto
                   a.boton.color-primario(href="https://www.minvivienda.gov.co/sites/default/files/documentos/titulob-030714.pdf" target="_blank")
-                    span.texto-negro <b>Link</b>
-                    i.fas.fa-link.texto-negro
+                    span.texto-negro Descargar
+                    i.fas.fa-file-download.texto-negro
 
     .row
       .col-lg-7
@@ -430,9 +427,8 @@
       .col-lg-9
 
         .titulo-sexto.color-adicional-1.mb-5
-          h5 Tabla 1.
-          br
-          i.mb-0 Valores máximos aceptables dependiendo de la característica del recurso. 
+          h5 Tabla 1
+          span Valores máximos aceptables dependiendo de la característica del recurso. 
 
         .tabla-a.color-adicional-1
           table
@@ -441,28 +437,28 @@
                 <th colspan="2">Resolución 2115 de 2007</th>
             tbody
               tr
-                th Características Físicas
-                th Valor Máximo Aceptable
+                th Características físicas
+                th Valor máximo aceptable
               tr(style='background-color: #F5FBFF')
                 td Color aparente
                 td.text-center 15
               tr
-                td Olor y Sabor 
+                td Olor y sabor 
                 td.text-center Aceptable 
               tr(style='background-color: #F5FBFF')
                 td Turbiedad 
                 td.text-center 2 
               tr(style='background-color: #00B7FC')
-                th Características Químicas
-                th Valor Máximo Aceptable
+                th Características químicas
+                th Valor máximo aceptable
               tr
                 td Color residual 
                 td.text-center 0.3 a 2.0 
               tr(style='background-color: #F5FBFF')
-                td PH
+                td pH
                 td.text-center 6.5 a 9.0
               tr
-                td Carbono Orgánico Total
+                td Carbono orgánico total
                 td.text-center 5.0
               tr(style='background-color: #F5FBFF')
                 td Nitritos
@@ -471,7 +467,7 @@
                 td Nitratos
                 td.text-center 10
               tr(style='background-color: #F5FBFF')
-                td Alcalinidad Total
+                td Alcalinidad total
                 td.text-center 200
               tr
                 td Cloruros
@@ -480,7 +476,7 @@
                 td Aluminio
                 td.text-center 0.2
               tr
-                td Dureza Total
+                td Dureza total
                 td.text-center 300
 
               tr(style='background-color: #F5FBFF')
@@ -494,10 +490,10 @@
                 td.text-center 250
               tr
                 td Coliformes totales
-                td.text-center 0 UFC/100 cm
+                td.text-center 0 UFC/100 cm<sup>3</sup>
               tr(style='background-color: #F5FBFF')
                 td Coliformes fecales
-                td.text-center 0 UFC/100 cm
+                td.text-center 0 UFC/100 cm<sup>3</sup>
               tr
                 td Mercurio
                 td.text-center 0,001
@@ -505,17 +501,17 @@
                 td Cianuro libre y disociable
                 td.text-center 0,05
               tr(style='background-color: #00B7FC')
-                th Características Microbiológicas
-                th Valor Máximo Aceptable
+                th Características microbiológicas
+                th Valor máximo aceptable
               tr
-                td Coliformes Totales
+                td Coliformes totales
                 td.text-center 0
               tr(style='background-color: #F5FBFF')
                 td Escherichia coli
                 td.text-center 0
               tr
                 td Mesófilos
-                td.text-center <100
+                td.text-center ≤100
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -533,9 +529,8 @@
       .col-lg-10
 
         .titulo-sexto.color-adicional-1.mb-5
-          h5 Tabla 2.
-          br
-          i.mb-0 Niveles de riesgo de acuerdo con clasificación IRCA.
+          h5 Tabla 2
+          span Niveles de riesgo de acuerdo con clasificación IRCA.
 
         .tabla-a.color-adicional-1 
           table
@@ -543,29 +538,29 @@
             thead
               tr
                 th Clasificación IRCA (%)
-                th Nivel de Riesgo
-                th(style='width:65%') IRCA mensual (Acciones)
+                th Nivel de riesgo
+                th(style='width:65%') IRCA mensual (acciones)
 
             tbody
               tr
                 td.text-center 80.1 - 100
-                td.text-center INVIABLE SANITARIAMENTE
-                td Calificación del Agua como <b>no apta para consumo humano</b>, por sobrepasar los valores máximos aceptables de las características físicas, químicas y microbiológicas relacionadas en la resolución y que causan un alto y permanente riesgo para la salud humana. Requiere gestión de la autoridad sanitaria, ambiental y de control.
+                td.text-center Inviable sanitariamente
+                td Calificación del agua como <b>no apta para consumo humano</b>, por sobrepasar los valores máximos aceptables de las características físicas, químicas y microbiológicas relacionadas en la resolución y que causan un alto y permanente riesgo para la salud humana. Requiere gestión de la autoridad sanitaria, ambiental y de control.
               tr(style='background-color: #F5FBFF')
                 td.text-center 35.1 - 80
-                td.text-center ALTO
-                td Calificación del Agua como <b>no apta para consumo humano</b>, por sobrepasar los valores máximos aceptables de las características físicas, químicas y microbiológicas relacionadas en la resolución y que causan un alto riesgo para la salud humana. requiere gestión directa de vigilancia máxima, especial y detallada por parte de la autoridad sanitaria, ambiental y de control.
+                td.text-center Alto
+                td Calificación del agua como <b>no apta para consumo humano</b>, por sobrepasar los valores máximos aceptables de las características físicas, químicas y microbiológicas relacionadas en la resolución y que causan un alto riesgo para la salud humana. Requiere gestión directa de vigilancia máxima, especial y detallada por parte de la autoridad sanitaria, ambiental y de control.
               tr
                 td.text-center 14.1 - 35
-                td.text-center MEDIO
-                td.text-center Agua <b>no apta para consumo humano</b>, por sobrepasar los valores máximos aceptables de las características físicas, químicas y microbiológicas relacionadas en la resolución y que causan un riesgo para la salud humana, el cual es susceptible de disminuir con una gestión directa de la persona presentadora del servicio público de acueducto. 
+                td.text-center Medio
+                td Agua <b>no apta para consumo humano</b>, por sobrepasar los valores máximos aceptables de las características físicas, químicas y microbiológicas relacionadas en la resolución y que causan un riesgo para la salud humana, el cual es susceptible de disminuir con una gestión directa de la persona presentadora del servicio público de acueducto. 
               tr(style='background-color: #F5FBFF')
                 td.text-center 5.1 - 14
-                td.text-center BAJO
-                td El agua cumple con todos o casi todos los valores máximos aceptables de las características físicas, químicas y microbiológicas relacionadas en la resolución, <b>permitiendo que el Agua sea apta para consumo humano</b>, susceptible de mejoramiento.
+                td.text-center Bajo
+                td El agua cumple con todos o casi todos los valores máximos aceptables de las características físicas, químicas y microbiológicas relacionadas en la resolución, <b>permitiendo que el agua sea apta para consumo humano</b>, susceptible de mejoramiento.
               tr
                 td.text-center 0 - 5
-                td.text-center SIN RIESGO
+                td.text-center Sin riesgo
                 td Agua es apta para consumo humano, cumple con todos los valores máximos aceptables de las características físicas, químicas y microbiológicas relacionadas en la resolución, <b>permitiendo que el agua sea apta para el consumo humano.</b>
 
 
@@ -630,7 +625,6 @@
           .py-3.py-md-4(titulo="Artículo 1. Objeto y campo de aplicación")
             .row
               .col-md-6.mb-4.mb-md-0
-                h3.mb-5 Artículo 1. Objeto y campo de aplicación
 
                 p #[b Objeto.] Establecer el sistema para la protección y control de la calidad del agua, con el fin de monitorear, prevenir y controlar los riesgos para la salud humana causados por su consumo, exceptuando el agua envasada.
 
@@ -644,7 +638,6 @@
           .py-3.py-md-4(titulo="Artículo 4. Responsables.")
             .row
               .col-md-6
-                h3.mb-5 Artículo 4. Responsables. 
 
                 p La implementación y desarrollo de las actividades de control y calidad del agua para consumo humano, será responsabilidad de los Ministerios de la Protección Social y de Ambiente, Vivienda y Desarrollo Territorial, la Superintendencia de Servicios Públicos Domiciliarios, el Instituto Nacional de Salud, las Direcciones Departamentales Distritales y Municipales de Salud, las personas prestadoras que suministran o distribuyen agua para consumo humano y los usuarios, para lo cual cumplirán las funciones indicadas en los artículos siguientes.  
 
@@ -652,10 +645,9 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img27.png', alt='Imágen decorativa')
 
-          .py-3.py-md-4(titulo="Artículo 9. Responsabilidades")
+          .py-3.py-md-4(titulo="Artículo 9. Responsabilidades de las personas prestadoras.")
             .row
               .col-md-6
-                h3.mb-5 Artículo 9. Responsabilidades de las personas prestadoras.
 
                 p Realizar el control de las características físicas, químicas y microbiológicas del agua para consumo humano, como también de las características adicionales definidas en el mapa de riesgo o lo exigido por la autoridad sanitaria de la jurisdicción. 
 
@@ -689,14 +681,14 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img33.svg', alt='Imágen decorativa')
 
-              p.text-center Características físicas y químicas del agua para consumo humano (Valores máximos aceptables). 
+              p.text-center Características físicas y químicas del agua para consumo humano (valores máximos aceptables). 
 
       .col-lg-7.dotted-border.p-3.mb-3
-        p Artículo 14.  Cálculo del IRCA.
-        p Artículo 11.  Características microbiológicas (Valores máximos aceptables).
-        p Artículo 15.  Clasificación de nivel de riesgo.
-        p Artículo 21.  Frecuencias y número de muestras de control de la calidad física y química del agua para consumo humano que debe ejercer la persona prestadora.
-        p.mb-0 Artículo 22.  Frecuencias y número de muestras de control de la calidad microbiológica del agua para consumo humano que debe ejercer la persona prestadora.
+        p #[b Artículo 14.]  Cálculo del IRCA.
+        p #[b Artículo 11.]  Características microbiológicas (valores máximos aceptables).
+        p #[b Artículo 15.]  Clasificación de nivel de riesgo.
+        p #[b Artículo 21.]  Frecuencias y número de muestras de control de la calidad física y química del agua para consumo humano que debe ejercer la persona prestadora.
+        p.mb-0 #[b Artículo 22.]  Frecuencias y número de muestras de control de la calidad microbiológica del agua para consumo humano que debe ejercer la persona prestadora.
 
 
 
@@ -718,8 +710,8 @@
               img(src='@/assets/curso/temas/tema1/img30.svg' alt='Imágen decorativa')
             .tarjeta.tarjeta-blanca
               .p-3
-                h4 Artículo 2.
-                p Criterios para puntos de recolección de muestras en red de distribución
+                h4 Artículo 2
+                p Criterios para puntos de recolección de muestras en red de distribución.
 
         .col-lg-4
           .tarjeta-avatar-b.mb-5
@@ -727,7 +719,7 @@
               img(src='@/assets/curso/temas/tema1/img31.svg' alt='Imágen decorativa')
             .tarjeta.tarjeta-blanca
               .p-3
-                h4 Artículo 3.
+                h4 Artículo 3
                 p Número mínimo de puntos de muestreo en la red de distribución.
 
         .col-lg-4
@@ -736,7 +728,7 @@
               img(src='@/assets/curso/temas/tema1/img32.svg' alt='Imágen decorativa')
             .tarjeta.tarjeta-blanca
               .p-3
-                h4 Artículo 4.
+                h4 Artículo 4
                 p Identificación del punto de muestreo.
 
 
@@ -790,13 +782,14 @@
       .col-lg-9
 
         .titulo-sexto.color-adicional-1.mb-5
-          h5 Tabla 3.
-          br
-          i.mb-0 Asignación del nivel de complejidad.
+          h5 Tabla 3
+          span Asignación del nivel de complejidad.
 
-        .tabla-a.color-adicional-1 
+        .tabla-a.color-adicional-1.mb-3
           table
-            caption Fuente: Ministerio de Desarrollo Económico. (2010). Reglamento técnico del sector de Agua potable y Saneamiento básico [RAS]. título A [Tabla]. (p.9)
+            caption Notas: (1) proyectado al periodo de diseño. Incluida la población flotante.
+              p.mb-0.texto-derecha2 #[b (2) Incluye la capacidad económica de población flotante. Debe ser evaluada según metodología del DNP]
+            
             thead
               tr
                 th.text-center Nivel de complejidad
@@ -812,7 +805,7 @@
                 td.text-center 2501 a 12500
                 td.text-center Baja
               tr
-                td.text-center Medio Alto
+                td.text-center Medio alto
                 td.text-center 12501 a 60000
                 td.text-center Media
               tr(style='background-color: #F5FBFF')
@@ -820,6 +813,7 @@
                 td.text-center > 60000
                 td.text-center Alta
 
+        p Fuente: Ministerio de Desarrollo Económico. (2010). Reglamento técnico del sector de Agua potable y Saneamiento básico [RAS]. Título A [Tabla]. (p.9).
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
       .col-lg-10
@@ -834,8 +828,8 @@
                   p.texto-blanco Con el propósito de conocer e identificar los componentes los niveles de complejidad te invitamos a leer el documento  Aspectos generales de los sistemas de agua potable y saneamiento básico, que se encuentra en el material complementario.
                 .col-sm-auto
                   a.boton.color-primario(href="https://minvivienda.gov.co/sites/default/files/documentos/010710_ras_titulo_a_.pdf " target="_blank")
-                    span.texto-negro <b>Link</b>
-                    i.fas.fa-link.texto-negro
+                    span.texto-negro Descargar
+                    i.fas.fa-file-download.texto-negro
 
     .row.justify-content-center.align-items-center.mb-5
       p #[b De acuerdo con el RAS 2000, título C], los procesos que conforman un sistema convencional de potabilización del agua son: captación del agua, remoción de material flotante y sólidos gruesos mediante rejillas, pretratamiento, coagulación, floculación, sedimentación, filtración, desinfección, estabilización y distribución del agua al sistema de redes de acueducto (p.75). 
@@ -844,9 +838,8 @@
       .col-lg-8
 
         .titulo-sexto.color-adicional-1.mb-5
-          h5 Figura 1.
-          br
-          i.mb-0 Sistema convencional de tratamiento de agua potable.
+          h5 Figura 1
+          span Sistema convencional de tratamiento de agua potable.
 
         figure
           img(src='@/assets/curso/temas/tema1/img40.svg', alt='Muestra un sistema convencional iniciando por fuente, rejillas, pretratamiento, coagulación, floculación, sedimentación, filtración, desinfección, estabilización y distribución.')
@@ -884,7 +877,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img42.svg', alt='Imágen decorativa')
             
-          h2.text-center.mt-5 Inclinación de las rejillas:
+          h2.text-center.mt-5 Inclinación de las rejillas
           p.text-center.mb-0 En el caso de rejillas utilizadas para la captación de aguas superficiales en cursos de agua de zonas montañosas, la rejilla debe estar inclinada entre 10% y 20% hacia la dirección aguas abajo. En el caso de otros tipos de estructuras de captación, las rejillas deben tener una inclinación de 70° a 80° con respecto a la horizontal.
         
         .col-md.tarjeta.color-primario.text-white.p-4
@@ -946,7 +939,7 @@
           p El dispositivo de limpieza debe ubicarse en el área de almacenamiento. 
 
         .tarjeta.color-acento-contenido.p-3(x="50%" y="74%" numero="+")
-          p El desarenador siempre debe ser del tipo autolimpiante. Para esto, la estructura deberá tener tolvas en el fondo con pendiente superior a la inercia del material silíceo para permitir la evacuación hidráulica del material depositado en dichas estructuras
+          p El desarenador siempre debe ser del tipo autolimpiante. Para esto, la estructura deberá tener tolvas en el fondo con pendiente superior a la inercia del material silíceo para permitir la evacuación hidráulica del material depositado en dichas estructuras.
 
         .tarjeta.color-acento-contenido.p-3(x="62.5%" y="62%" numero="+")
           p Las tuberías o canales de rebose y/o limpieza se unirán a una tubería o canal de descarga, los cuales deben tener un diámetro o ancho no menor de 0.25 m y/o una pendiente no menor del 2 %. 
@@ -963,7 +956,7 @@
         p #[b El RAS 2000, título C], establece que los procesos que se llevan a cabo en esta etapa del tratamiento del agua potable son la dosificación y la mezcla rápida. 
 
         .cajon.color-gris.p-4
-          p.mb-0 Una vez adicionados los coagulantes y auxiliares de la coagulación deben dispersarse rápida y homogéneamente en el cuerpo de agua, para lo cual deben emplearse las unidades de mezcla rápida. Estos equipos pueden ser hidráulicos o mecánicos.
+          p.mb-0 Una vez adicionados, los coagulantes y auxiliares de la coagulación deben dispersarse rápida y homogéneamente en el cuerpo de agua, para lo cual deben emplearse las unidades de mezcla rápida. Estos equipos pueden ser hidráulicos o mecánicos.
 
       .col-lg-3
         figure
@@ -1011,7 +1004,7 @@
                     i.fas.fa-file-download.texto-negro
 
     .row.bg-titulo4.align-items-center.p-1.mb-4
-      h3.text-white.my-3.texto-derecha Flocuación
+      h3.text-white.my-3.texto-derecha Floculación
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -1022,7 +1015,6 @@
         .py-3.py-md-4(titulo="Floculadores hidráulicos")
           .row.justify-content-center.align-items-center
             .col-md-8.mb-4.mb-md-0
-              h3.mb-5 Floculadores hidráulicos
 
               p Utilizan el cambio de dirección de flujo del agua, inducido por diferentes mecanismos, para producir la turbulencia necesaria y promover la formación del floc, además derivan su energía de la carga de velocidad que el líquido adquiere en su tránsito por un conducto. Entre los floculadores hidráulicos que pueden ser implementados, se encuentran: 
 
@@ -1055,7 +1047,6 @@
         .py-3.py-md-4(titulo="Floculadores mecánicos")
           .row.justify-content-center.align-items-center
             .col-md-8
-              h3.mb-5 Floculadores mecánicos 
 
               p Requieren de un equipo electromecánico para mover un agitador de paletas. En el nivel del sistema bajo, se deben evitar este tipo de floculadores.   
 
@@ -1077,7 +1068,6 @@
         .py-3.py-md-4(titulo="Floculadores hidromecánicos")
           .row.justify-content-center.align-items-center
             .col-md-8
-              h3.mb-5 Floculadores hidromecánicos
 
               p Utilizan la energía hidráulica a la entrada para mover una turbina de impulso, la cual gira con baja cabeza hidráulica. Esta transmite su movimiento a su eje, el cual va en posición horizontal a través de poleas y correas de poliuretano.
 
@@ -1188,9 +1178,9 @@
       h3.text-white.my-3.texto-derecha Estabilización y ablandamiento
 
     .row.justify-content-center.align-items-center.mb-5
-      p.mb-4 #[b El RAS en su título C], también determina que el agua tratada a la salida de la planta no debe presentar propiedades corrosivas con respecto a las tuberías del sistema de distribución y del interior de las viviendas; el pH del agua debe ser próximo al de saturación. Si es necesario hacer uso de inhibidores que a la vez pueden ayudar a proteger la red de distribución de agua de la formación de biopelículas en su interior, éstos pueden utilizarse si son económicamente factibles.
+      p.mb-4 #[b El RAS en su título C], también determina que el agua tratada a la salida de la planta no debe presentar propiedades corrosivas con respecto a las tuberías del sistema de distribución y del interior de las viviendas; el pH del agua debe ser próximo al de saturación. Si es necesario hacer uso de inhibidores que a la vez pueden ayudar a proteger la red de distribución de agua de la formación de biopelículas en su interior, estos pueden utilizarse si son económicamente factibles.
 
-      p Para proteger las tuberías de los agentes corrosivos presentes puede ajustarse la composición del agua, pH, concentración en iones de calcio y la alcalinidad al valor del equilibrio de saturación del carbonato de calcio para una temperatura del agua dada. El agua ideal debe tener una dureza total entre 40 mg/L y 60 mg/L de equivalente de carbonato de calcio (CaCO3), a un pH y alcalinidad que alcance las condiciones de saturación y una dureza de magnesio de no más que 36 mg/L para minimizar la formación de hidróxido de magnesio a temperaturas elevadas.
+      p Para proteger las tuberías de los agentes corrosivos presentes puede ajustarse la composición del agua, pH, concentración en iones de calcio y la alcalinidad al valor del equilibrio de saturación del carbonato de calcio para una temperatura del agua dada. El agua ideal debe tener una dureza total entre 40 mg/L y 60 mg/L de equivalente de carbonato de calcio (CaCO<sub>3</sub>), a un pH y alcalinidad que alcance las condiciones de saturación y una dureza de magnesio de no más que 36 mg/L para minimizar la formación de hidróxido de magnesio a temperaturas elevadas.
 
       .col-lg-4
         figure

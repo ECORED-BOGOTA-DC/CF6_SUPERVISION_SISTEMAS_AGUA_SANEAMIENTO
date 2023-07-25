@@ -34,14 +34,14 @@
           img(src='@/assets/curso/temas/tema2/img3.png', alt='Imágen decorativa')
 
       .col-lg-7.mt-3
-        .list.mb-3(data-aos="fade-down")
+        .list.mb-5(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Tasa de producción</span>
 
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mb-5
           .col-lg-6
             .bg2-fondo1.p-4
               .row.justify-content-center.align-items-center
@@ -57,7 +57,7 @@
                 .col-3
 
 
-        .list.mb-3(data-aos="fade-down").mt-3
+        .list.mb-5(data-aos="fade-down").mt-3
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
@@ -82,7 +82,7 @@
 
     .row
       .col-lg-7
-        .list.mb-3(data-aos="fade-down")
+        .list.mb-4(data-aos="fade-down")
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
@@ -99,7 +99,7 @@
 
       .col-lg-8
         LineaTiempoD.color-acento-contenido
-          .row(numero="1" titulo="Cloro residual:")
+          .row(numero="1" titulo="Cloro residual")
             .col-md-3
               figure
                 img(src='@/assets/curso/temas/tema2/img9.png', alt='Imágen decorativa')
@@ -108,7 +108,7 @@
               p.text-small Existen diferentes tipos de analizadores: el amperimétrico, el voltamétrico, el polarográfico, el potenciométrico y el colorimétrico, unos miden solo cloro total, otro cloro libre y/o combinado como el amperimétrico.
 
 
-          .row(numero="2" titulo="PH:")
+          .row(numero="2" titulo="pH")
             .col-md-3
               figure
                 img(src='@/assets/curso/temas/tema2/img10.png', alt='Imágen decorativa')
@@ -116,7 +116,7 @@
             .col-md-6.mb-4.mb-md-0
               p.text-small El medidor de pH incluye un electrodo de proceso y un electrodo combinado para referencia. Debe considerarse como el parámetro más importante para caracterizar y controlar los procesos de tratamiento, por lo cual debe disponerse de un sistema de medida del pH eficiente y que sea capaz de detectar pequeñas variaciones.
 
-          .row(numero="3" titulo="Turbiedad:")
+          .row(numero="3" titulo="Turbiedad")
             .col-md-3
               figure
                 img(src='@/assets/curso/temas/tema2/img11.png', alt='Imágen decorativa')
@@ -124,7 +124,7 @@
             .col-md-6.mb-4.mb-md-0
               p.text-small La medición continua de la turbiedad por la falta de transparencia del agua debido a la presencia de partículas extrañas debe realizarse por medio de analizadores amperimétricos de turbiedad tal como el equipo o Unidad Nefelométrica de Turbiedad (UNT); otros son los analizadores ópticos que deben usarse cuando se tienen concentraciones medias de sólidos. Debe tenerse en cuenta que la unidad de medición actual es la UNT. Cuando se trata de evaluar pequeños valores de turbiedad es preferible el uso de turbidímetros de diseminación.
 
-          .row(numero="4" titulo="Aluminio residual:")
+          .row(numero="4" titulo="Aluminio residual")
             .col-md-3
               figure
                 img(src='@/assets/curso/temas/tema2/img12.png', alt='Imágen decorativa')
@@ -138,7 +138,7 @@
                 img(src='@/assets/curso/temas/tema2/img13.png', alt='Imágen decorativa')
 
             .col-md-6.mb-4.mb-md-0
-              p.text-small Pueden utilizarse Streaming Current Monitors (SCM) los cuales son monitores de corriente de reestabilización de los coloides presentes en el agua para evaluar en continuo el resultado de la adición de un coagulante sobre partículas coloidales durante el proceso de coagulación. Este resultado se caracteriza por la medición de una corriente electrocinética generada entre dos electrodos en una muestra de agua cruda a la cual se le añadió un coagulante. Esta corriente es generada por el reacomodamiento de los iones que se han extraído de las partículas adsorbidas sobre las paredes de una celda de medición.
+              p.text-small Pueden utilizarse <i>Streaming Current Monitors</i> (SCM) los cuales son monitores de corriente de reestabilización de los coloides presentes en el agua para evaluar en continuo el resultado de la adición de un coagulante sobre partículas coloidales durante el proceso de coagulación. Este resultado se caracteriza por la medición de una corriente electrocinética generada entre dos electrodos en una muestra de agua cruda a la cual se le añadió un coagulante. Esta corriente es generada por el reacomodamiento de los iones que se han extraído de las partículas adsorbidas sobre las paredes de una celda de medición.
 
 
     .row.mt-5
@@ -152,10 +152,10 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-7
-        p Para la medición del caudal debe hacerse uso de medidores según sea el tipo de caudal volumétrico o másico deseado. Debe adquirirse el conocimiento básico de los tipos de fluxómetros volumétricos disponibles para realizar la mejor elección, entre los cuales se encuentran fluxómetros magnéticos, ultrasónicos, de turbina, medidores #[i venturi] y flujo de tubo, canaleta #[i Parshall] y vertederos, los cuales determinan el caudal directamente (desplazamiento) o indirectamente por deducción (presión diferencial, área variable, velocidad, fuerza, tensión inducida, torbellino). 
+        p Para la medición del caudal debe hacerse uso de medidores según sea el tipo de caudal volumétrico o másico deseado. Debe adquirirse el conocimiento básico de los tipos de fluxómetros volumétricos disponibles para realizar la mejor elección, entre los cuales se encuentran fluxómetros magnéticos, ultrasónicos, de turbina, medidores Venturi y flujo de tubo, canaleta Parshall y vertederos, los cuales determinan el caudal directamente (desplazamiento) o indirectamente por deducción (presión diferencial, área variable, velocidad, fuerza, tensión inducida, torbellino). 
 
         .cajon.cajon-tema2.p-4.mt-3
-          p.mb-0 Las mediciones de caudal másico deben efectuarse a partir de una medida volumétrica compensándola para las variaciones de densidad del fluido o determinando directamente la caudal masa aprovechando características medibles de la masa del fluido.
+          p.mb-0 Las mediciones de caudal másico deben efectuarse a partir de una medida volumétrica, compensándola para las variaciones de densidad del fluido o determinando directamente la caudal masa aprovechando características medibles de la masa, del fluido.
 
       .col-lg-5.mt-3
         figure
@@ -266,21 +266,17 @@
           img(src='@/assets/curso/temas/tema2/img21.png', alt='Imágen decorativa')
 
       .col-lg-8.mt-3
-        TabsA.color-acento-botones.mb-5        
+        TabsA.color-pestana-azul.mb-5        
           .tarjeta.clr-paleYellow.p-4(titulo="Actuadores eléctricos")
-            h4 Actuadores eléctricos
             p Deben usarse estos dispositivos para controlar la posición de válvulas y compuertas que ajustan el caudal dentro de un proceso de control continuo o discreto. 
 
           .tarjeta.clr-paleYellow.p-4(titulo="Actuadores hidráulicos y neumáticos")
-            h4 Actuadores hidráulicos y neumáticos
-            p Los usos que deben darse a estos actuadores son similares a los actuadores eléctricos con la diferencia de que estos operan en una forma diferente, lo cual se ve reflejado en los costos de operación. 
+            p Los usos que deben darse a estos actuadores son similares a los actuadores eléctricos, con la diferencia de que estos operan en una forma diferente, lo cual se ve reflejado en los costos de operación. 
 
           .tarjeta.clr-paleYellow.p-4(titulo="Motores de velocidad variable")
-            h4 Motores de velocidad variable
             p El tipo de motor debe escogerse de acuerdo con las condiciones de trabajo a las cuales se va a someter, la disponibilidad de espacio y la disponibilidad económica de la planta. La velocidad debe adecuarse para las condiciones del proceso particular. 
 
           .tarjeta.clr-paleYellow.p-4(titulo="Válvulas de control")
-            h4 Válvulas de control
             p Deben tenerse válvulas como elementos de control final para regular o limitar la variable controlable. Para la selección de la válvula deben analizarse: los tipos para que sean compatibles, acoplarse a los requerimientos y caídas de presión, la rapidez y facilidad para ser operada, temperatura y finalmente compatibilidad con el fluido del proceso.
 
     .row.justify-content-center.align-items-center.mt-5
@@ -377,7 +373,7 @@
         p El diseño debe asegurar que los materiales con los cuales se construyen las válvulas, tanto en su cuerpo como en su mecanismo de cierre, cumplan con todas las especificaciones técnicas reconocidas tanto a nivel nacional como internacional, en función de las características del agua, tales como el grado de agresividad y otros, así como de las presiones de servicio más los factores de seguridad requeridos. 
 
         .cajon.cajon-tema2.p-4.mt-3
-          p.mb-0 Estas especificaciones para los materiales deben seguir lo establecido en las Normas Técnicas Colombianas NTC, las normas ASTM, las normas ISO o las normas DIN correspondientes para cada tipo de válvula. Los revestimientos internos para las válvulas y sus mecanismos deben ajustarse a las Normas Técnicas Colombianas correspondientes o a la Norma AWWA C550. 
+          p.mb-0 Estas especificaciones para los materiales deben seguir lo establecido en las Normas Técnicas Colombianas NTC, las normas ASTM, las normas ISO o las normas DIN correspondientes para cada tipo de válvula. Los revestimientos internos para las válvulas y sus mecanismos deben ajustarse a las normas técnicas colombianas correspondientes o a la Norma AWWA C550. 
 
     .row.mt-5
       .col-lg-7
@@ -406,7 +402,7 @@
           img(src='@/assets/curso/temas/tema2/img28.png', alt='Imágen decorativa')
 
       .col-lg-8
-        p.mt-3 El el proceso de potabilización de agua, se requiere de válvulas resistentes y que su tiempo de duración sea largo, es por esta razón que se debe conocer los tipos de válvulas, su funcionalidad, material y protocolos de uso entre otras características. 
+        p.mt-3 El proceso de potabilización de agua, se requiere de válvulas resistentes y que su tiempo de duración sea largo, es por esta razón que se debe conocer los tipos de válvulas, su funcionalidad, material y protocolos de uso, entre otras características. 
 
         p Entre las válvulas se encuentran, las que se describen a continuación: 
 
@@ -416,7 +412,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 1
-            p.mb-0 <b>Válvulas de corte o cierre:</b> las válvulas de corte o cierre deben localizarse al comienzo de la línea de conducción y al final de ésta si la presión es mayor que 50 m.c.a. Para todos los niveles de complejidad del sistema, se debe hacer un estudio de los transientes hidráulicos ocasionados por la operación de las válvulas en el sistema y el diseño debe incluir recomendaciones sobre su operación.
+            p.mb-0 <b>Válvulas de corte o cierre:</b> las válvulas de corte o cierre deben localizarse al comienzo de la línea de conducción y al final de esta si la presión es mayor que 50 m.c.a. Para todos los niveles de complejidad del sistema, se debe hacer un estudio de los transientes hidráulicos ocasionados por la operación de las válvulas en el sistema y el diseño debe incluir recomendaciones sobre su operación.
 
         .cajon.cajon-tema2.p-4.mt-3
           p.mb-0 En aquellos casos en que la tubería presenta grandes desniveles debido a la topografía del terreno, se debe verificar la condición del cierre de una válvula de corte y sus características. 
@@ -466,7 +462,7 @@
 
           li.l-p
             i.fas.fa-check-circle.color-vineta1
-            | Cuando en la conducción se encuentre una válvula de línea, debe existir una ventosa aguas arriba o aguas abajo, dependiendo de la pendiente para la aireación durante el llenado y descarga de ésta. 
+            | Cuando en la conducción se encuentre una válvula de línea, debe existir una ventosa aguas arriba o aguas abajo, dependiendo de la pendiente para la aireación durante el llenado y descarga de esta. 
 
 
           li.l-p
@@ -504,7 +500,7 @@
 
           li
             i.fas.fa-check-circle.color-vineta1
-            | En el caso que exista una válvula intermedia en la conducción, ésta debe estar dotada de un paso lateral (by pass) de tal manera que permita el flujo de aire hacia la ventosa. Este paso lateral debe estar dotado de su propia válvula de corte y se debe utilizar cuando:
+            p.mb-0 En el caso de que exista una válvula intermedia en la conducción, esta debe estar dotada de un paso lateral (<em>by pass</em>) de tal manera que permita el flujo de aire hacia la ventosa. Este paso lateral debe estar dotado de su propia válvula de corte y se debe utilizar cuando:
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-6
@@ -593,10 +589,10 @@
           li 
             .lista-ol--cuadro__vineta
               span 4
-            p.mb-0 <b>Válvulas de cheque:</b> en el caso que la línea de aducción o de conducción corresponda a la línea de impulsión de un bombeo, el diseño debe contemplar el uso de válvulas de cheque o retención con el fin de evitar el retroceso del agua, con el consiguiente vaciado del conducto y sus posibles daños en las bombas o aplastamiento de la tubería. Las válvulas de cheque sencillas o de doble acción deben cumplir con lo establecido en las Normas Técnicas Colombianas correspondientes o en su defecto con las Normas AWWA, C508, AWWA C515, o cualquier otra norma de reconocimiento internacional equivalente.
+            p.mb-0 <b>Válvulas de cheque:</b> en el caso que la línea de aducción o de conducción corresponda a la línea de impulsión de un bombeo, el diseño debe contemplar el uso de válvulas de cheque o retención con el fin de evitar el retroceso del agua, con el consiguiente vaciado del conducto y sus posibles daños en las bombas o aplastamiento de la tubería. Las válvulas de cheque sencillas o de doble acción deben cumplir con lo establecido en las normas técnicas colombianas correspondientes o en su defecto con las Normas AWWA, C508, AWWA C515, o cualquier otra norma de reconocimiento internacional equivalente.
 
         .cajon.color-gris.p-4
-          p.mb-0 El uso de las válvulas de cheque en el diseño deberá contar con la aprobación previa de la persona prestadora del servicio. En el caso que las válvulas de cheque estén fabricadas utilizando aleaciones de cobre, estas deben cumplir con la Norma Técnica Colombiana NTC 1762.
+          p.mb-0 El uso de las válvulas de cheque en el diseño deberá contar con la aprobación previa de la persona prestadora del servicio. En el caso de que las válvulas de cheque estén fabricadas utilizando aleaciones de cobre, estas deben cumplir con la Norma Técnica Colombiana NTC 1762.
 
       .col-lg-4
         figure
@@ -613,7 +609,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 5
-            p.mb-0 <b>Válvulas de protección contra golpe de ariete:</b> este tipo de válvulas deben instalarse en tuberías de aducción por bombeo, sometidas a riesgos de sobrepresiones por golpe de ariete, sobre la línea de impulsión, con el fin de proteger las bombas y las tuberías correspondientes. Podrán utilizarse válvulas de alivio de presión, caso en el cual, éstas deben estar especificadas según normas técnicas nacionales o internacionales, de reconocimiento internacional, tales como la NTC correspondiente, la Norma AWWA C 506, o normas ISO y EN.
+            p.mb-0 <b>Válvulas de protección contra golpe de ariete:</b> este tipo de válvulas deben instalarse en tuberías de aducción por bombeo, sometidas a riesgos de sobrepresiones por golpe de ariete, sobre la línea de impulsión, con el fin de proteger las bombas y las tuberías correspondientes. Podrán utilizarse válvulas de alivio de presión, caso en el cual, éstas deben estar especificadas según normas técnicas nacionales o internacionales, de reconocimiento internacional, tales como la NTC correspondiente, la Norma AWWA C506, o normas ISO y EN.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.mb-4
@@ -658,7 +654,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-4
-        p.mb-4 Son dispositivos que permiten bombear o impulsar el agua de un lugar a otro, usualmente su movimiento es ascendente; existen diferentes tipos de bombas pero todas constan de un orificio de entrada o también denominado de aspiración, y otro de salida o de impulsión. El número de bombas en la estación de bombeo debe definirse desde la etapa de diseño de acuerdo con la capacidad requerida, las etapas de desarrollo y la energía disponible, al igual que estar sujeto a una evaluación económica. De todas formas, el número mínimo de bombas es dos, cada una con una capacidad igual al caudal de diseño de la estación de bombeo.
+        p.mb-4 Son dispositivos que permiten bombear o impulsar el agua de un lugar a otro, usualmente su movimiento es ascendente; existen diferentes tipos de bombas, pero todas constan de un orificio de entrada o también denominado de aspiración, y otro de salida o de impulsión. El número de bombas en la estación de bombeo debe definirse desde la etapa de diseño de acuerdo con la capacidad requerida, las etapas de desarrollo y la energía disponible, al igual que estar sujeto a una evaluación económica. De todas formas, el número mínimo de bombas es dos, cada una con una capacidad igual al caudal de diseño de la estación de bombeo.
 
         .cajon.color-gris.p-4
           p.mb-0 Cuando el número de bombas sea mayor que dos, la capacidad debe distribuirse equitativamente entre ellas. Además, deben preverse unidades de reserva del mismo tipo; cuando se requieran tres o más bombas, debe colocarse una unidad adicional como reserva por cada tres bombas empleadas.
@@ -688,7 +684,7 @@
         p El dimensionamiento y la selección del tipo de bombas debe realizarse en conjunto con la tubería de impulsión y con el tanque de almacenamiento de aguas abajo, buscando siempre la condición de costo mínimo, incluyendo los costos iniciales, los costos de construcción, de operación, de expansión y de mantenimiento. 
 
         .cajon.color-gris.p-4
-          p.mb-0 Adicionalmente deben tenerse en cuenta #[b la Norma Técnica NTC 1775 y las normas AWWA E 101.]
+          p.mb-0 Adicionalmente deben tenerse en cuenta #[b la Norma Técnica NTC 1775 y las normas AWWA E101.]
           p.mb-0 El diseño debe tener en cuenta los siguientes criterios para la selección del tipo de bombas, veamos: 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -776,7 +772,7 @@
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Coagulantes metálicos</span>
 
     .row.justify-content-center.align-items-center.mb-5
-      p Para la dosificación en la coagulación por adsorción-neutralización debe tenerse en cuenta la relación estequiométrica entre la dosis del coagulante y la concentración de los coloides, ya que una sobredosis conduce a una reestabilización de las partículas. Para aguas con bajo nivel de alcalinidad, se recomienda aumentar el pH añadiendo hidróxido de calcio (Ca(OH)2).
+      p Para la dosificación en la coagulación por adsorción-neutralización debe tenerse en cuenta la relación estequiométrica entre la dosis del coagulante y la concentración de los coloides, ya que una sobredosis conduce a una reestabilización de las partículas. Para aguas con bajo nivel de alcalinidad, se recomienda aumentar el pH añadiendo hidróxido de calcio (Ca(OH)<sub>2</sub>).
 
       p.mb-5 Estos coagulantes metálicos son de dos tipos: 
 
@@ -910,7 +906,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img48.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Estos equipos permiten la obtención de medidas exactas que deben verterse de los compuestos químicos, acorde a la necesidad detectada en el proceso de potabilización, al igual que su sistema de dosificación debe ser controlada bien sea de manera continua o periódica.
+            p.mb-0 Estos equipos permiten la obtención de medidas exactas que deben verterse de los compuestos químicos, acorde a la necesidad detectada en el proceso de potabilización, al igual que su sistema de dosificación debe ser controlada, bien sea de manera continua o periódica.
 
 
     .row.mb-5
@@ -1029,7 +1025,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 3
-            p.mb-0 <b>Aplicadores de Cal:</b> la Cal puede aplicarse ya sea en solución concentrada teniendo en cuenta la temperatura de apagado de la cal viva, o en suspensión como cal apagada. Los saturadores de cal pueden emplearse para producir una solución saturada de hidróxido de calcio, Ca (OH)2. Este equipo consta de un tanque donde se deposita la cal que debe ser disuelta. El agua debe introducirse en la cal por el fondo del tanque, y la solución saturada debe colectarse en la superficie libre mediante canaletas, o en la proximidad a la superficie.
+            p.mb-0 <b>Aplicadores de Cal:</b> la Cal puede aplicarse ya sea en solución concentrada teniendo en cuenta la temperatura de apagado de la cal viva, o en suspensión como cal apagada. Los saturadores de cal pueden emplearse para producir una solución saturada de hidróxido de calcio, Ca (OH)<sub>2</sub>. Este equipo consta de un tanque donde se deposita la cal que debe ser disuelta. El agua debe introducirse en la cal por el fondo del tanque, y la solución saturada debe colectarse en la superficie libre mediante canaletas, o en la proximidad a la superficie.
 
       .col-lg-4
         figure
@@ -1051,7 +1047,7 @@
           img(src='@/assets/curso/temas/tema2/img54.svg', alt='Imágen decorativa')
 
       .col-lg-9
-        p En el proceso de tratamiento de agua se utilizan diferentes productos químicos que garantizan la efectividad de este proceso; sin embargo se debe tener mucha claridad frente a la cantidad a dosificar y esto depende también de diversas variables como la calidad de agua, su caudal y el objetivo que se espera con el producto a dosificar. La mayoría de estos productos son líquidos y se deben suministrar a través de bombas dosificadoras, por lo que es necesario conocer el tipo de dosificador a utilizar.
+        p En el proceso de tratamiento de agua se utilizan diferentes productos químicos que garantizan la efectividad de este proceso; sin embargo, se debe tener mucha claridad frente a la cantidad a dosificar y esto depende también de diversas variables como la calidad de agua, su caudal y el objetivo que se espera con el producto a dosificar. La mayoría de estos productos son líquidos y se deben suministrar a través de bombas dosificadoras, por lo que es necesario conocer el tipo de dosificador a utilizar.
 
         p En la selección del tipo de dosificador se deben tener en cuenta los siguientes aspectos:
 
@@ -1062,14 +1058,20 @@
           li.l-p
             i.fas.fa-check-circle.color-vineta1
             | La precisión requerida, la confiabilidad para aplicar siempre la dosis predeterminada, el tipo de producto por dosificar y el rango de caudal de trabajo máximo y mínimo. 
-        ul.lista-ul--color.lista-ul--separador.fa-ul2
           li.l-p
             i.fas.fa-check-circle.color-vineta1
             | Factores técnicos y económicos. 
-        ul.lista-ul--color.lista-ul--separador.fa-ul2
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Los dosificadores deben tener una capacidad para dosificar por lo menos, la dosis que cubra las condiciones más desfavorables del agua por tratar.
+          li.l-p
+            i.fas.fa-check-circle.color-vineta1
+            | Deben conseguirse en el mercado las piezas de repuestos para el tipo de dosificador seleccionado.
           li
             i.fas.fa-check-circle.color-vineta1
-            | Los dosificadores deben tener una capacidad para dosificar por lo menos, la dosis que cubra las condiciones más desfavorables del agua por tratar. d. Deben conseguirse en el mercado las piezas de repuestos para el tipo de dosificador seleccionado. e. Para los niveles de complejidad de sistema bajo y medio deben preferirse los dosificadores con control manual; para los niveles de complejidad de sistema medio alto y alto el control puede ser automático, pero debe estar diseñado para permitir su manejo manual en caso de daño o emergencia y tener por lo menos dos unidades de dosificación.
+            | Para los niveles de complejidad de sistema bajo y medio deben preferirse los dosificadores con control manual; para los niveles de complejidad de sistema medio alto y alto el control puede ser automático, pero debe estar diseñado para permitir su manejo manual en caso de daño o emergencia y tener por lo menos dos unidades de dosificación.
+
+
 
       .col-lg-5
         figure
@@ -1125,7 +1127,7 @@
               .col-4.mb-4
                 img(src='@/assets/curso/temas/tema2/img59.svg' alt='Imágen decorativa')
             h4.text-center.mb-5 Para la caracterización de las aguas crudas a tratar:
-            .row.justify-content-center.align-items-center
+            .row
               .col-lg-6
                 ul.lista-ul--color.fa-ul2
                   li
@@ -1136,7 +1138,7 @@
                     | Color.
                   li
                     i.fas.fa-check-circle.color-vineta1
-                    | PH.
+                    | pH.
                   li
                     i.fas.fa-check-circle.color-vineta1
                     | Alcalinidad. 
@@ -1148,10 +1150,7 @@
                     | Conductividad.
 
               .col-lg-6
-                ul.lista-ul--color.fa-ul2
-                  li
-                    i.fas.fa-check-circle.color-vineta1
-                    | Conductividad.           
+                ul.lista-ul--color.fa-ul2         
                   li
                     i.fas.fa-check-circle.color-vineta1
                     | Hierro.
@@ -1223,7 +1222,7 @@
                 | Velocidades de sedimentación de partículas floculadas. 
               li
                 i.fas.fa-check-circle.color-vineta1
-                | Cargas superficiales por aplicar y turbiedad. remanente con cada una de ellas. 
+                | Cargas superficiales por aplicar y turbiedad. Remanente con cada una de ellas. 
 
           .tarjeta.tarjeta--gris.p-4
             .row.justify-content-center.align-items-center.mb-3

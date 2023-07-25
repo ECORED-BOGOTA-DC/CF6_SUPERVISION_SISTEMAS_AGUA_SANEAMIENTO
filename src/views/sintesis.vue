@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra la síntesis del componente formativo: Manipular sistemas de potabilización, la operación de unidades de potabilización, instrumentos y equipos para el control de procesos de potabilización y tratamiento de lodos y olores ofensivos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
