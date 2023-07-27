@@ -1084,7 +1084,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-2
         figure
-          img(src='@/assets/curso/temas/tema1/img52.png', alt='alt').img-52-tm1
+          img(src='@/assets/curso/temas/tema1/img52.png', alt='Imágen decorativa').img-52-tm1
 
       .col-lg-10
         .tarjeta-gris.p-4

@@ -43,14 +43,14 @@
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-6
-            .bg2-fondo1.p-4
+            .bg2-fondo1.p-4(alt="Imágen decorativa")
               .row.justify-content-center.align-items-center
                 .col-2
                 .col-10.mt-lg-3
                   b.text-right Manetener la disponibiblidad y confiabilidad del servicio
 
           .col-lg-6
-            .bg2-fondo2.p-3
+            .bg2-fondo2.p-3(alt="Imágen decorativa")
               .row.justify-content-center.align-items-center
                 .col-9
                   b Controlar el volumen de producción de agua de acuerdo con la oferta y a la demanda
@@ -778,7 +778,7 @@
 
       .row 
         .col-lg-6
-          .bg2-fondo3.p-4
+          .bg2-fondo3.p-4(alt="Imágen decorativa")
             .row 
               .col-3
               .col-9.col-lg-8
@@ -800,7 +800,7 @@
                     | Policloruro de aluminio.
 
         .col-lg-6
-          .bg2-fondo4.p-4
+          .bg2-fondo4.p-4(alt="Imágen decorativa")
             .row 
               .col-9.col-lg-8
                 h4 Sales de hierro

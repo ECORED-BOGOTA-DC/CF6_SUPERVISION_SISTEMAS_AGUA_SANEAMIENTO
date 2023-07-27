@@ -10,7 +10,7 @@
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.png')})`}"
-      )
+      )(alt="Imágen decorativa")
       .bloque-texto-g__texto.p-4
         p.mb-0 Los residuos en las corrientes de agua, generan turbiedad en esta, trayendo consigo múltiples problemas, entre los que se encuentran los olores desagradables, riesgo a la salud humana, vegetal, animal  y finalmente contaminando el medio ambiente. Es importante conocer el tipo de lodos, con el fin de eliminar los contaminantes que poseen acorde a su tipo y poder iniciar el tratamiento adecuado y que pueda ser aplicado nuevamente una vez se haya logrado su estabilización. 
 
