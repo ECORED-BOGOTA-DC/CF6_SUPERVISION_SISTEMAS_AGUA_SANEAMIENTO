@@ -12,7 +12,7 @@
         .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-4.mb-5
           .bloque-texto-g1__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.png')})`}"
-          )
+          )(alt="Imágen decorativa")
           .bloque-texto-g1__texto.p-3
             p.mb-0 Una vez el agua es captada se requiere, en función de sus características, someterla a una serie de operaciones y procesos unitarios que tienen como objetivo permitir que logre las condiciones necesarias para el uso que se tiene definido; particularmente en el caso de agua para consumo humano, se debe cumplir con las normas que reglamentan el suministro de agua para esta actividad. Así mismo, el proceso de potabilización debe ser complementado con todo un sistema diseñado para su conducción, almacenamiento y distribución, que a su vez debe ser monitoreado a lo largo de este para verificar sus condiciones.
 
@@ -223,7 +223,7 @@
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img9.svg')})`}"
-          )
+          )(alt="Imágen decorativa")
           .bloque-texto-g__texto.p-3
             .row
               .col-lg-7
@@ -390,7 +390,7 @@
         .tarjeta.bgDescarga.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/img21.svg")
+              img(src="@/assets/curso/temas/tema1/img21.svg",alt="Imágen decorativa")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -518,7 +518,7 @@
         .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img23.svg')})`}"
-          )
+          )(alt="Imágen decorativa")
           .bloque-texto-g__texto.p-3
             p.mb-0 Para determinar si un agua se puede consumir, se utiliza el Índice de Riesgo de la Calidad del Agua para Consumo Humano (IRCA), que es el grado de riesgo de ocurrencia de enfermedades relacionadas con el no cumplimiento de las características físicas, químicas y microbiológicas del agua para consumo humano. El cálculo de dicho índice debe realizarse a cada una de las muestras de agua potable recolectadas en la red de distribución y posteriormente se determina un índice promedio mensual para el sistema de acueducto.
 
@@ -606,7 +606,7 @@
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img24.svg')})`}"
-          )
+          )(alt="Imágen decorativa")
           .bloque-texto-g__texto.p-3
             p.mb-0 Durante los diferentes contenidos se ha recalcado la importancia de conocer, aplicar y cumplir el marco normativo de referencia para el desarrollo de las actividades inherentes a los sistemas de potabilización y saneamiento. A continuación se presenta una relación de las principales normas aplicables en el contexto de agua potable y algunos de sus artículos.
 
@@ -820,7 +820,7 @@
         .tarjeta.bgDescarga.p-4
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/img21.svg")
+              img(src="@/assets/curso/temas/tema1/img21.svg",alt="Imágen decorativa")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
@@ -992,7 +992,7 @@
         .tarjeta.bgDescarga.p-4
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/temas/tema1/img21.svg")
+              img(src="@/assets/curso/temas/tema1/img21.svg",alt="Imágen decorativa")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

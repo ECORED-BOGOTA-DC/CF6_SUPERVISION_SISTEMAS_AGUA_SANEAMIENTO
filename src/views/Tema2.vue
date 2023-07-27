@@ -166,7 +166,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
-              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Medidores de nivel</span>
 
@@ -669,7 +669,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
-              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Tipos de bombas</span>
 
@@ -721,7 +721,7 @@
         .list.mb-3(data-aos="fade-down")
           .list__item
             .list__item__icon
-              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='')
+              img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Materiales de las bombas</span>
 
@@ -730,7 +730,7 @@
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img43.png')})`}"
-          )
+          )(alt="Imágen decorativa")
           .bloque-texto-g__texto.p-4
             p.mb-0 Los materiales de las bombas incluyendo los impulsores, las carcasas y otros componentes, deben ser seleccionados de acuerdo con las características del agua que va a bombearse y teniendo en cuenta la temperatura, la conductividad, la capacidad de corrosión y los sólidos en suspensión.
 
@@ -904,7 +904,7 @@
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-4
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img48.svg')})`}"
-          )
+          )(alt="Imágen decorativa")
           .bloque-texto-g__texto.p-4
             p.mb-0 Estos equipos permiten la obtención de medidas exactas que deben verterse de los compuestos químicos, acorde a la necesidad detectada en el proceso de potabilización, al igual que su sistema de dosificación debe ser controlada, bien sea de manera continua o periódica.
 
