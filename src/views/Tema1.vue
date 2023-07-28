@@ -431,7 +431,7 @@
           span Valores máximos aceptables dependiendo de la característica del recurso. 
 
         .tabla-a.color-adicional-1
-          table
+          table(alt="Muestras las caracteristicas físicas y el valor máximo aceptable.")
             caption Fuente: Aguas de occidente. (s.f). Preguntas frecuentes sobre la calidad del agua en los sistemas operados por aguas regionales EPM S.A. E.S.P [Tabla] (p.5). 
             thead
                 <th colspan="2">Resolución 2115 de 2007</th>
@@ -533,7 +533,7 @@
           span Niveles de riesgo de acuerdo con clasificación IRCA.
 
         .tabla-a.color-adicional-1 
-          table
+          table(alt="Muestra la clasificación IRCA, NIVEL DE RIESGO E irca MENSUAL")
             caption Fuente: Aguas de occidente (s.f). Preguntas frecuentes sobre la calidad del agua en los sistemas operados por aguas regionales EPM S.A. E.S.P [Tabla] (p.6).
             thead
               tr
@@ -576,7 +576,7 @@
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="flip-up")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/7G2fqVMPhI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row
       .col-lg-7
@@ -593,7 +593,7 @@
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="flip-up")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Koc3Of5KKl0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     separador
@@ -786,7 +786,7 @@
           span Asignación del nivel de complejidad.
 
         .tabla-a.color-adicional-1.mb-3
-          table
+          table(alt="Muestra el nivel de complejidad, la población de la zona urbana y la capacidad económica de los ususarios.")
             caption Notas: (1) proyectado al periodo de diseño. Incluida la población flotante.
               p.mb-0.texto-derecha2 #[b (2) Incluye la capacidad económica de población flotante. Debe ser evaluada según metodología del DNP]
             
