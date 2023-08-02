@@ -236,16 +236,16 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/img19.png", alt="Imágen decorativa")
-          .crd_hover_txt--body.bg-flip-1
+          .crd_hover_txt--body
             h4.mb-3.text-center.text-white Transmisores
             p.mb-0.text-center.text-white El sistema de transmisión de señales debe sujetarse a las características propias de la planta, el nivel de complejidad del sistema y el tipo de señal a transmitir. 
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt2(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/img20.png", alt="Imágen decorativa")
-          .crd_hover_txt--body.bg-flip-2
+          .crd_hover_txt--body
             h4.mb-3.text-center.text-white Controladores
             p.mb-0.text-center.text-white Estos dispositivos deben comparar la variable controlada con el valor deseado y ejercer una acción correctiva de acuerdo con la desviación. La variable controlada la pueden recibir directamente, como controladores locales o bien indirectamente en forma de señal neumática o electrónica procedente de un transmisor.
 

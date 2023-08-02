@@ -376,12 +376,6 @@ export default {
           centro:
             'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
-        {
-          nombre: 'Liliana Victoria Morales Guadrón',
-          cargo: 'Responsable Línea de Producción Distrito Capital.',
-          centro:
-            'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
-        },
       ],
     },
     {

@@ -118,7 +118,7 @@
       <rect id="Rectángulo_350641" data-name="Rectángulo 350641" width="142.918" height="28.226"/>
     </clipPath>
   </defs>
-  <g id="Grupo_1013919" data-name="Grupo 1013919" transform="translate(-356.167 -441.25)">
+  <g id="Grupo_1013921" data-name="Grupo 1013921" transform="translate(-356.167 -441.25)">
     <path id="Trazado_723971" data-name="Trazado 723971" d="M0,0H294.232V78.247H0Z" transform="translate(724.572 832.166)" fill="#3076b6"/>
     <g id="Grupo_1013741" data-name="Grupo 1013741" transform="translate(724.572 838.775)">
       <g id="Grupo_1013740" data-name="Grupo 1013740" transform="translate(0)">
@@ -258,14 +258,14 @@
     <g id="Grupo_1013806" data-name="Grupo 1013806" transform="translate(1180.765 767.139)">
       <g id="Grupo_1013804" data-name="Grupo 1013804" clip-path="url(#clip-path-50)">
         <g id="Grupo_1013803" data-name="Grupo 1013803" clip-path="url(#clip-path-50)">
-          <text id="Medio_bajo" data-name="Medio bajo" transform="translate(11.515 14.32)" fill="#232323" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Medio bajo</tspan></text>
+          <text id="Medio_bajo" data-name="Medio bajo" transform="translate(11.515 14.32)" fill="#232323" font-size="19" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Medio bajo</tspan></text>
         </g>
       </g>
     </g>
     <g id="Grupo_1013810" data-name="Grupo 1013810" transform="translate(1181.017 801.082)">
       <g id="Grupo_1013808" data-name="Grupo 1013808" clip-path="url(#clip-path-44)">
         <g id="Grupo_1013807" data-name="Grupo 1013807" clip-path="url(#clip-path-44)">
-          <text id="Alto" transform="translate(12.863 17.413)" font-size="19" font-family="Calibri"><tspan x="0" y="0">Alto</tspan></text>
+          <text id="Alto" transform="translate(12.863 17.413)" font-size="20" font-family="Calibri"><tspan x="0" y="0">Alto</tspan></text>
         </g>
       </g>
     </g>
