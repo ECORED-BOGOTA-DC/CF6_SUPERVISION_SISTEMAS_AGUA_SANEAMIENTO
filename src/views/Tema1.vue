@@ -427,7 +427,7 @@
       .col-lg-9
 
         .titulo-sexto.color-adicional-1.mb-5
-          h5 Tabla 1
+          h5 Tabla 1.
           span Valores máximos aceptables dependiendo de la característica del recurso. 
 
         .tabla-a.color-adicional-1
@@ -529,7 +529,7 @@
       .col-lg-10
 
         .titulo-sexto.color-adicional-1.mb-5
-          h5 Tabla 2
+          h5 Tabla 2.
           span Niveles de riesgo de acuerdo con clasificación IRCA.
 
         .tabla-a.color-adicional-1 
@@ -782,7 +782,7 @@
       .col-lg-9
 
         .titulo-sexto.color-adicional-1.mb-5
-          h5 Tabla 3
+          h5 Tabla 3.
           span Asignación del nivel de complejidad.
 
         .tabla-a.color-adicional-1.mb-3
@@ -838,7 +838,7 @@
       .col-lg-8
 
         .titulo-sexto.color-adicional-1.mb-5
-          h5 Figura 1
+          h5 Figura 1.
           span Sistema convencional de tratamiento de agua potable.
 
         figure
