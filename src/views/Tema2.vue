@@ -47,13 +47,13 @@
               .row.justify-content-center.align-items-center
                 .col-2
                 .col-10.mt-lg-3
-                  b.text-right Manetener la disponibiblidad y confiabilidad del servicio
+                  b.text-right Manetener la disponibiblidad y confiabilidad del servicio.
 
           .col-lg-6
             .bg2-fondo2.p-3(alt="Imágen decorativa")
               .row.justify-content-center.align-items-center
                 .col-9
-                  b Controlar el volumen de producción de agua de acuerdo con la oferta y a la demanda
+                  b Controlar el volumen de producción de agua de acuerdo con la oferta y a la demanda.
                 .col-3
 
 
@@ -67,12 +67,15 @@
         .cajon.cajon-tema2.p-4.mt-3
           p.mb-0 Mantener la composición del efluente de la planta dentro de los estándares de calidad especificados. 
 
-        .list.mb-3(data-aos="fade-down").mt-3
+        .list.mb-4(data-aos="fade-down").mt-3
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Costos de operación de la planta</span>
+
+        .row.justify-content-center.align-items-center.mb-3
+          p Realizar la operación al menor costo posible, respetando las normas de calidad (p.130).
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
@@ -246,7 +249,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/img20.png", alt="Imágen decorativa")
           .crd_hover_txt--body
-            h4.mb-3.text-center.text-white Controladores
+            h4.mb-4.text-center.text-white Controladores
             p.mb-0.text-center.text-white Estos dispositivos deben comparar la variable controlada con el valor deseado y ejercer una acción correctiva de acuerdo con la desviación. La variable controlada la pueden recibir directamente, como controladores locales o bien indirectamente en forma de señal neumática o electrónica procedente de un transmisor.
 
     .row.mt-5
@@ -331,7 +334,7 @@
             .bottomCircle.mb-5
               figure
                 img(src="@/assets/curso/temas/tema2/img24.svg", alt="Imágen decorativa").img90.m-auto
-            h4.text-center Datos de proceso
+            h4.text-center <i>Datos de proceso</i>
             p.text-center.mb-0 Debe mantenerse la operación de la planta dentro de los límites aceptables y alertar al personal de la planta cuando estos parámetros se encuentran fuera de las condiciones límite.
 
         .col-lg-4.mb-4.mb-lg-0
@@ -339,7 +342,7 @@
             .bottomCircle.mb-5
               figure
                 img(src="@/assets/curso/temas/tema2/img25.svg", alt="Imágen decorativa").img90.m-auto
-            h4.text-center Información técnica
+            h4.text-center <i>Información técnica</i>
             p.text-center.mb-0 Debe utilizarse para proveer mejoras, tratando de optimizar cada sistema de tratamiento para aumentar el nivel de eficiencia y disminuir costos.
 
         .col-lg-4.mb-4.mb-lg-0
@@ -347,7 +350,7 @@
             .bottomCircle.mb-5
               figure
                 img(src="@/assets/curso/temas/tema2/img26.svg", alt="Imágen decorativa").img90.m-auto
-            h4.text-center Datos históricos
+            h4.text-center <i>Datos históricos</i>
             p.text-center.mb-0 Deben determinar inclinaciones de términos a largo plazo con énfasis en la calidad tanto de la planta como del efluente y optimización de la planta, lo cual incide en planeaciones futuras. 
 
     separador
@@ -788,7 +791,7 @@
                 ul.lista-ul--color.lista-ul--separador.fa-ul2
                   li.l-p
                     i.fas.fa-check-circle.color-vineta1
-                    | Sulfato de aluminio
+                    | Sulfato de aluminio.
                   li.l-p
                     i.fas.fa-check-circle.color-vineta1
                     | Sulfato de aluminio amoniacal.
