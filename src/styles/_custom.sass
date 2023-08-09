@@ -215,15 +215,20 @@
 .bg-titulo3
   background-image: url("../assets/curso/temas/tema1/bg-titulo2.svg")
   background-repeat: no-repeat
-  background-size: 41% 90%
-  @media (max-width: 500px)
+  background-size: 38% 90%
+  @media (min-width: 700px) and (max-width: 991px)
+    background-size: 60% 100%
+  @media (max-width: 600px)
     background-size: 100% 100%
+
 
 .bg-titulo4
   background-image: url("../assets/curso/temas/tema1/bg-titulo3.svg")
   background-repeat: no-repeat
   background-size: 20% 90%
-  @media (max-width: 500px)
+  @media (min-width: 700px) and (max-width: 991px)
+    background-size: 30% 100%
+  @media (max-width: 600px)
     background-size: 60% 100%
 
 .texto-derecha
@@ -408,6 +413,7 @@
     transform: translateY(calc( 100% - 3.85rem ))
     background-color: rgba(255, 247, 230, 1) 
     background-color: #0F6B9F
+ 
   
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
@@ -535,6 +541,8 @@
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
     transform: translateY(calc( 100% - 3.85rem ))
     background-color: #EB8E0D
+    @media (max-width: 500px)
+      padding: 1.1rem
   
   @media (min-width:1200px) and (max-width:1400px)  
     .crd_hover_txt--body
@@ -642,7 +650,7 @@
 .img36-tm1
   position: relative
   right: 40%
-  @media (max-width: 500px)
+  @media (max-width: 900px)
     right: 47%
 
 .img37-tm1
@@ -650,7 +658,7 @@
   width: 125%
   position: relative
   right: 33%
-  @media (max-width: 500px)
+  @media (max-width: 900px)
     width: 100%
     right: 0%
 
@@ -659,7 +667,7 @@
   width: 125%
   position: relative
   right: 17%
-  @media (max-width: 500px)
+  @media (max-width: 900px)
     width: 100%
     right: 0%
 
@@ -677,7 +685,7 @@
   max-width: 200%
   width: 150%
   left: 30%
-  @media (max-width: 500px)
+  @media (max-width: 800px)
     width: 100%
     left: 0%
 
@@ -748,6 +756,8 @@
 .text-right
   position: relative
   left: 10px
+  @media (max-width: 900px)
+    left: 30px
 
 
 .bg2-fondo3

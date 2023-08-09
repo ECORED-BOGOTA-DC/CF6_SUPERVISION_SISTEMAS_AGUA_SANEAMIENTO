@@ -825,7 +825,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.texto-blanco.mb-3 Reglamento técnico del sector de agua y saneamiento Titulo A.
-                  p.texto-blanco Con el propósito de conocer e identificar los componentes los niveles de complejidad te invitamos a leer el documento  Aspectos generales de los sistemas de agua potable y saneamiento básico, que se encuentra en el material complementario.
+                  p.texto-blanco Con el propósito de conocer e identificar los componentes, los niveles de complejidad te invitamos a leer el documento, Aspectos generales de los sistemas de agua potable y saneamiento básico, que se encuentra en el material complementario.
                 .col-sm-auto
                   a.boton.color-primario(href="https://minvivienda.gov.co/sites/default/files/documentos/010710_ras_titulo_a_.pdf " target="_blank")
                     span.texto-negro Descargar
@@ -933,10 +933,10 @@
           p El dispositivo de salida debe tener un canal recolector provisto de un vertedero que asegure una distribución uniforme del flujo en toda la sección transversal del desarenador. 
 
         .tarjeta.color-acento-contenido.p-3(x="35.8%" y="60%" numero="+")
-          p El dispositivo de rebose debe tener un vertedero lateral ubicado cerca de la entrada del desarenador. 
+          p El dispositivo de limpieza debe ubicarse en el área de almacenamiento.
 
         .tarjeta.color-acento-contenido.p-3(x="35.7%" y="86%" numero="+")
-          p El dispositivo de limpieza debe ubicarse en el área de almacenamiento. 
+          p El dispositivo de rebose debe tener un vertedero lateral ubicado cerca de la entrada del desarenador.  
 
         .tarjeta.color-acento-contenido.p-3(x="50%" y="74%" numero="+")
           p El desarenador siempre debe ser del tipo autolimpiante. Para esto, la estructura deberá tener tolvas en el fondo con pendiente superior a la inercia del material silíceo para permitir la evacuación hidráulica del material depositado en dichas estructuras.

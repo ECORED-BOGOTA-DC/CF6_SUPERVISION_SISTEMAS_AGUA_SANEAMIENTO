@@ -159,7 +159,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/921200_CF06_DU.pdf',
+        download: 'downloads/manipular_sistemas_de_potabilizacion.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -383,19 +383,19 @@ export default {
       autores: [
         {
           nombre: 'Jesús Antonio Vecino Valero',
-          cargo: 'Diseño web-2023',
+          cargo: 'Diseño web',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Manuel Felipe Echavarria Orozco',
-          cargo: 'Desarrollador Fullstack - 2023',
+          cargo: 'Desarrollador Fullstack',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Jhon Jairo Urueta Álvarez',
-          cargo: 'Desarrollo Fullstack-2023',
+          cargo: 'Desarrollo Fullstack',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
