@@ -67,12 +67,15 @@
         .cajon.cajon-tema2.p-4.mt-3
           p.mb-0 Mantener la composición del efluente de la planta dentro de los estándares de calidad especificados. 
 
-        .list.mb-3(data-aos="fade-down").mt-3
+        .list.mb-4(data-aos="fade-down").mt-3
           .list__item
             .list__item__icon
               img(src='@/assets/curso/temas/tema2/icon1.svg', alt='Imágen decorativa')
           .list__txt
             h4.mb-0.tv.margin-icon <span style='border-bottom: 1px dotted #3076B6'>Costos de operación de la planta</span>
+
+        .row.justify-content-center.align-items-center.mb-3
+          p Realizar la operación al menor costo posible, respetando las normas de calidad (p.130).
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
